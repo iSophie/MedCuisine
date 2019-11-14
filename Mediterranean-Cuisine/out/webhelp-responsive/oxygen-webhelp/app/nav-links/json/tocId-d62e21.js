@@ -1,0 +1,1 @@
+define({"topics" : [{"title":"Baba ghanoush","href":"topics\/glossary\/Glossary.html#Bab","attributes": {"data-id":"Bab",},"menu": {"hasChildren":false,},"tocID":"Bab-d62e22","topics":[]}]});

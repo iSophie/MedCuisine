@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="Spavong">
+    <title>Spaghetti alle vongole</title>
+    <shortdesc>How to cook Spaghetti alle vongole - recipe</shortdesc>
+    <taskbody>
+        <context>
+            <p></p>
+        </context>
+        <steps>
+            <step>
+                <cmd>Rinse the clams in cold running water, and scrub if necessary, then put them into a large bowl and cover with cold water. 
+                    Salt generously and leave for a couple of hours, then drain and rinse well to remove any grit or sand.</cmd>
+            </step>
+            <step>
+                <cmd>Put the spaghetti into a large pan of salted boiling water and cook for a couple of minutes under the recommended time, 
+                    until nearly done.<ph conkeyref="safety/fire1"/></cmd>
+            </step>
+            <step>
+                <cmd>Meanwhile, put half the butter and all the olive oil in a large pan over a medium heat and soften the garlic and chilli.</cmd>
+            </step>
+            <step>
+                <cmd>Add the drained clams, and turn up the heat. Pour in the wine, cover and leave for a couple of minutes until most of them have opened. 
+                    Discard any that are still closed. Add the others to the sauce, picking a few out of their shells for variety.</cmd>
+            </step>
+            <step>
+                <cmd>Drain the spaghetti and add to the pan along with the remaining butter. Toss well and leave for a minute, then stir through the chopped parsley, 
+                    lemon zest and juice, season to taste and serve.</cmd>
+            </step>
+            <step>
+                <cmd>Meanwhile, put half the butter and all the olive oil in a large pan over a medium heat and soften the garlic and chilli.</cmd>
+                <stepresult><image id="sp" href="../../resources/Spaghetti-alle-vongole.jpg"></image></stepresult>
+            </step>
+        </steps>
+    </taskbody>
+</task>

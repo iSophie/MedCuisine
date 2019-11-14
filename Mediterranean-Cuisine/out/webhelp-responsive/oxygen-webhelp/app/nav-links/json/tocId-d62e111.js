@@ -1,0 +1,1 @@
+define({"topics" : [{"title":"Spaghetti","href":"topics\/glossary\/Glossary_11.html#Spa","attributes": {"data-id":"Spa",},"menu": {"hasChildren":false,},"tocID":"Spa-d62e112","topics":[]}]});

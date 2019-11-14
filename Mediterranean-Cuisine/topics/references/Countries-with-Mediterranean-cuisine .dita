@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+<reference id="reference_nlt_lhh_sjb">
+    <title>Countries with Mediterranean cuisine.</title>
+    <shortdesc></shortdesc>
+    <refbody> 
+        <section>
+            
+            
+            <ol>
+                
+                <li>Maghrebi Cuisine
+                    <ul>
+                        
+                        <li>Algeria</li>
+                        <li>Libya</li>
+                        <li>Morocco</li>
+                        <li>Tunisia</li>
+                    </ul> 
+                </li>
+                
+                <li>Levantine Cuisine
+                    <ul>
+                        <li>Israel</li>
+                        <li>Jordan</li>
+                        <li>Lebanon</li>
+                        
+                        <li>Iraq</li>
+                        <li>Palestine</li>
+                        <li>Syria</li>
+                        <li>Egypt</li>
+                        <li>Southern Turkey</li>
+                    </ul>             
+                </li>
+                
+                <li>Ottoman Cuisine
+                    <ul>
+                        <li>Albania</li>
+                        <li>Croatia</li>
+                        <li>Cyprus</li>
+                        <li>Montenegro</li>
+                        <li>Turkey</li>
+                        
+                        
+                    </ul>
+                </li>
+                
+                <li>Greece</li>
+                <li>Italy</li>
+                <li>France</li>
+                <li>Spain</li>   
+                
+                
+            </ol>
+            
+            
+            
+        </section>
+        
+        
+        
+    </refbody>
+</reference>

@@ -1,0 +1,1 @@
+define({"title":"<span class=\"title\"></span>","topics" : [{"title":"What is a Mediterranean Cuisine style?","shortdesc":"<p class=\"shortdesc\"></p>","href":"topics\/concepts\/Mediterranean-Cuisine-Style.html","attributes": {"data-id":"MC",},"menu": {"hasChildren":true,},"tocID":"MC-d62e10","next":"MC-d62e10",}]});

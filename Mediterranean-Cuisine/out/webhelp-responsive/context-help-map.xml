@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map>
+   <appContext helpID="MC" path="topics/concepts/Mediterranean-Cuisine-Style.html"/>
+   <appContext helpID="Bab" path="topics/glossary/Glossary.html#Bab"/>
+   <appContext helpID="Dol" path="topics/glossary/Glossary.html#Dol"/>
+   <appContext helpID="Fa" path="topics/glossary/Glossary.html#Fa"/>
+   <appContext helpID="Gaz" path="topics/glossary/Glossary.html#Gaz"/>
+   <appContext helpID="Hum" path="topics/glossary/Glossary.html#Hum"/>
+   <appContext helpID="Kou" path="topics/glossary/Glossary.html#Kou"/>
+   <appContext helpID="Lec" path="topics/glossary/Glossary.html#Lec"/>
+   <appContext helpID="Mus" path="topics/glossary/Glossary.html#Mus"/>
+   <appContext helpID="Pae" path="topics/glossary/Glossary.html#Pae"/>
+   <appContext helpID="Ris" path="topics/glossary/Glossary.html#Ris"/>
+   <appContext helpID="Spa" path="topics/glossary/Glossary.html#Spa"/>
+   <appContext helpID="Tab" path="topics/glossary/Glossary.html#Tab"/>
+   <appContext helpID="Yuv" path="topics/glossary/Glossary.html#Yuv"/>
+   <appContext helpID="it" path="topics/concepts/Italy.html"/>
+   <appContext helpID="gnochi" path="topics/tasks/Gnochi.html"/>
+   <appContext helpID="Spavong" path="topics/tasks/Spaghetti-alle-vongole.html"/>
+   <appContext helpID="Spain" path="topics/concepts/Spain.html"/>
+   <appContext helpID="ome" path="topics/tasks/Potato-Omellette.html"/>
+   <appContext helpID="pae" path="topics/tasks/Paella.html"/>
+   <appContext helpID="reference_nlt_lhh_sjb"
+               path="topics/references/Countries-with-Mediterranean-cuisine%20.html"/>
+   <appContext helpID="Untitled" path="topics/glossary/Glossary.html"/>
+</map>

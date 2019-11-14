@@ -1,0 +1,1 @@
+define({"topics" : [{"title":"Yuvarlakia","href":"topics\/glossary\/Glossary_13.html#Yuv","attributes": {"data-id":"Yuv",},"menu": {"hasChildren":false,},"tocID":"Yuv-d62e131","topics":[]}]});

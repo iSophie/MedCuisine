@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="it">
+    <title>Italy</title>
+    <shortdesc>Italian cuisine</shortdesc>
+    <conbody>
+        <p>Italian cuisine is food typical of Italy. It has developed through centuries of social and economic changes, with roots stretching to antiquity.
+            Significant changes occurred with the discovery of the New World and the introduction of potatoes, tomatoes, capsicums, maize and sugar beet, 
+            this last introduced in quantity in the 18th century.Italian cuisine is known for its regional diversity, 
+            especially between the north and the south of the Italian peninsula.It offers an abundance of taste, and is one of the most popular and copied 
+            in the world. It influenced several cuisines around the world, chiefly that of the United States.
+            Italian cuisine is generally characterized by its simplicity, with many dishes having only two to four main ingredients.
+            Italian cooks rely chiefly on the quality of the ingredients rather than on elaborate preparation.
+            Ingredients and dishes vary by region. Many dishes that were once regional have proliferated with variations throughout the country.</p>
+        
+        <image conref="../tasks/Gnochi.dita#gnochi/gn"></image>
+        
+        <p><q>In Italy, Italian food is heavily seasonal," LaRaia says. "Any restaurant serving regional cuisine will be serving the protein that 
+            you see on the side of the road. If you drive past chickens, expect to see chicken on the menu."</q>
+         
+         <image conref="../tasks/Spaghetti-alle-vongole.dita#Spavong/sp"></image>
+         
+            <q>"Everything is incredibly fresh and local and very simple," she says. "Even at the autogrills [Italian quick service restaurants, 
+            often attached to gas stations] you're getting very fresh food, 
+            it's very seasonal — you can get buffalo mozzarella and see the cows roaming in the back."</q></p>
+    </conbody>
+</concept>
