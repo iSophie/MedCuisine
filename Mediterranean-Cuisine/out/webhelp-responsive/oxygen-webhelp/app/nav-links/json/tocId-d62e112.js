@@ -1,1 +1,0 @@
-define({"topics" : [{"title":"Tabbouleh","href":"topics\/glossary\/Glossary_12.html#Tab","attributes": {"data-id":"Tab",},"menu": {"hasChildren":false,},"tocID":"Tab-d62e113","topics":[]}]});

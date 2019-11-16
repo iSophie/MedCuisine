@@ -1,1 +1,0 @@
-define({"topics" : [{"title":"Lechazo","href":"topics\/glossary\/Glossary_7.html#Lec","attributes": {"data-id":"Lec",},"menu": {"hasChildren":false,},"tocID":"Lec-d62e76","topics":[]}]});

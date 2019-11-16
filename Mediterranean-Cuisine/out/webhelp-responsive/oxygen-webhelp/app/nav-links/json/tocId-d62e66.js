@@ -1,1 +1,0 @@
-define({"topics" : [{"title":"Koulourakia","href":"topics\/glossary\/Glossary_6.html#Kou","attributes": {"data-id":"Kou",},"menu": {"hasChildren":false,},"tocID":"Kou-d62e67","topics":[]}]});
