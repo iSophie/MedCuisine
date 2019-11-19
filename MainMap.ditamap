@@ -6,4 +6,9 @@
         <topicref href="topics/concepts/IBM-StoredIQ-product-library.dita"/>
         <topicref href="topics/concepts/Contacting-IBM-StoredIQ-customer-support.dita"/>
     </topicref>
+    <topicref href="topics/concepts/ibm_storediq_components.dita">
+        <topicref href="topics/concepts/solution_components.dita"/>
+        <topicref href="topics/concepts/applications_of_ibm_storediq.dita"/>
+    </topicref>
+    <topicref href="secondarymap.ditamap" format="ditamap"/>
 </map>
