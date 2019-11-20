@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
-<concept id="reuse">
+<concept id="reusable">
     <title>ReusableContentLibrary</title>
     <shortdesc></shortdesc>
     <conbody>
-        <image id="im_1" href="../../resources/images/BlackScreenshot.jpg"></image>
-        <image id="im_2" href="../../resources/images/IBM_admin_dashboard.jpg"></image>
-        <image id="im_3" href="../../resources/images/IBM_storeIQ_policyManager.jpg"></image>
-        <image id="im_4" href="../../resources/images/IBMstoredInsights.jpg"></image>
-        <image id="im_5" href="../../resources/images/StoredIQ_administrator.jpg"></image>
-        <image id="im_6" href="../../resources/images/StoredIQDataWorkbench.jpg"></image>
-        <image id="im_7" href="../../resources/images/TopBCG.jpg"></image>
-        <image id="im_8" href="../../resources/images/bottomBCG.jpg"></image>
+        <image id="im1" href="../../resources/images/BlackScreenshot.jpg"></image>
+        <image id="im2" href="../../resources/images/IBM_admin_dashboard.jpg"></image>
+        <image id="im3" href="../../resources/images/IBM_storeIQ_policyManager.jpg"></image>
+        <image id="im4" href="../../resources/images/IBMstoredInsights.jpg"></image>
+        <image id="im5" href="../../resources/images/StoredIQ_administrator.jpg"></image>
+        <image id="im6" href="../../resources/images/StoredIQDataWorkbench.jpg"></image>
+        <image id="im7" href="../../resources/images/TopBCG.jpg"></image>
+        <image id="im8" href="../../resources/images/bottomBCG.jpg"></image>
     </conbody>
 </concept>

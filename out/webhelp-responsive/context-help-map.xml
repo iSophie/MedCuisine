@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map>
+   <appContext helpID="About" path="topics/concepts/About-this-publication.html"/>
+   <appContext helpID="" path="topics/concepts/IBM-StoredIQ-product-library.html"/>
+   <appContext helpID="Contacting"
+               path="topics/concepts/Contacting-IBM-StoredIQ-customer-support.html"/>
+   <appContext helpID="ibm_storediq_components"
+               path="topics/concepts/ibm_storediq_components.html"/>
+   <appContext helpID="solution_components"
+               path="topics/concepts/solution_components.html"/>
+   <appContext helpID="applications_of_ibm_storediq"
+               path="topics/concepts/applications_of_ibm_storediq.html"/>
+</map>
