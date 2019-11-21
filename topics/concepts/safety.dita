@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="safety">
+    <title>Safety</title>
+    <shortdesc>Safety</shortdesc>
+    <conbody>
+        <p>
+
+            <hazardstatement   type="attention">
+                <messagepanel>
+                    <typeofhazard> 
+                        <ph id="pri">If you delete the primary disk, you delete the operating system, and the IBM
+                        StoredIQ software; the virtual machine might need to be scrapped.
+                        </ph>
+                    </typeofhazard>
+                    <howtoavoid></howtoavoid>
+                </messagepanel>
+            </hazardstatement>
+        </p>
+    </conbody>
+</concept>

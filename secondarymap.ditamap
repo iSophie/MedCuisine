@@ -3,4 +3,5 @@
 <map>
     <title>SecondaryMap</title>
     <keydef keys="reuse" href="topics/concepts/reusablecontentlibrary.dita"/>
+    <keydef keys="safety" href="topics/concepts/safety.dita"/>
 </map>

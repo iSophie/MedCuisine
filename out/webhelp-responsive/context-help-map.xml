@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <map>
    <appContext helpID="About" path="topics/concepts/About-this-publication.html"/>
-   <appContext helpID="" path="topics/concepts/IBM-StoredIQ-product-library.html"/>
+   <appContext helpID="IBM_StoredIQ"
+               path="topics/concepts/IBM-StoredIQ-product-library.html"/>
    <appContext helpID="Contacting"
                path="topics/concepts/Contacting-IBM-StoredIQ-customer-support.html"/>
    <appContext helpID="ibm_storediq_components"
@@ -10,4 +11,8 @@
                path="topics/concepts/solution_components.html"/>
    <appContext helpID="applications_of_ibm_storediq"
                path="topics/concepts/applications_of_ibm_storediq.html"/>
+   <appContext helpID="planning_for_deployment"
+               path="topics/concepts/planning_for_deployment.html"/>
+   <appContext helpID="open_virtual_appliance__ova__configuration_requirements"
+               path="topics/concepts/open_virtual_appliance__ova__configuration_requirements.html"/>
 </map>

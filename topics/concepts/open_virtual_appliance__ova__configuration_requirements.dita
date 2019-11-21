@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="open_virtual_appliance__ova__configuration_requirements">
+    <title>Open Virtual Appliance (OVA) configuration requirements</title>
+    <shortdesc></shortdesc>
+    <conbody>
+        <p>IBM StoredIQ is deployed as virtual appliances and is supported in VMware ESXi 5.0 (all fix pack levels) or
+            VMware ESXi 6.0 (all fix pack levels) environments. You must have a virtual infrastructure that meets the
+            IBM StoredIQ hardware requirements.</p>
+        
+        <dl>
+            <dlentry>
+                <dt>Application stack</dt>
+                <dd>
+                    <p>
+                        <ul>
+                            <li>
+                                vCPU: 2
+                            </li>
+                            <li>
+                                Memory: 4 GB
+                            </li>
+                            <li>
+                                Storage:
+                                <ul>
+                                    <li>Primary disk (vmdisk1): 21 GB</li>
+                                    <li>Data disk (vmdisk2): 10 GB</li>
+                                </ul>
+                            </li>
+                            
+                            
+                        </ul>
+                    </p>
+                </dd>
+            </dlentry>
+            
+            
+            <dlentry>
+                <dt>Gateway server</dt>
+                <dd>
+                    <p>
+                        <ul>
+                            <li>
+                                vCPU: 4
+                                
+                            </li>
+                            <li>
+                                Memory: 8 GB
+                                Storage:
+                            </li>
+                            <li>
+                                Storage:
+                                <ul>
+                                    <li>Primary disk (vmdisk1): 100 GB</li>
+                                    <li>Data disk (vmdisk2): 75 GB</li>
+                                    <li>Swap disk (vmdisk3): 40 - 100 GB</li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </p>
+                </dd>
+            </dlentry>
+            
+            <dlentry>
+                <dt>DataServer - Classic</dt>
+                <dd>
+                    <ul>
+                        <li>
+                            <p>vCPU: 4</p>
+                            <p>Even though increasing the number of vCPUs increases performance, the actual benefits depend on
+                            whether the specific host is oversubscribed or not.</p>
+                        </li>
+                        <li>
+                            <p>
+                                Memory: 16 GB
+                            </p>
+                            <p>
+                                While the minimum value works under light-load condition, as the load increases, the data server
+                                quickly starts using swap space. For high load situations, increasing RAM beyond 16 GB can benefit
+                                performance. Monitoring swap usage can provide insight.
+                            </p>
+                        </li>
+                        
+                        <li>
+                            <p>Storage:</p>
+                            <ul>
+                                <li>
+                                    <p>Primary disk (vmdisk1, SCSI 0:0): Default is 150 GB</p>
+                                    <p>This virtual disk has an associated VMDK that contains the
+                                        IBM StoredIQ operating code. Do not change its size.</p>
+                                    <ph conkeyref="safety/pri"></ph>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                    
+                    
+                </dd>
+            </dlentry>
+            
+            
+        </dl>
+        
+    </conbody>
+</concept>

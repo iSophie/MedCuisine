@@ -11,4 +11,8 @@
         <topicref href="topics/concepts/applications_of_ibm_storediq.dita"/>
     </topicref>
     <topicref href="secondarymap.ditamap" format="ditamap"/>
+    <topicref href="topics/concepts/planning_for_deployment.dita">
+        <topicref
+            href="topics/concepts/open_virtual_appliance__ova__configuration_requirements.dita"/>
+    </topicref>
 </map>
