@@ -72,7 +72,7 @@
                 <div class="row">
                     
                         <nav role="navigation" id="wh_publication_toc" class="collapse col-lg-3 col-md-3 col-sm-12 d-md-block">
-                            <div class=" wh_publication_toc " data-tooltip-position="right"><ul role="tree" aria-label="Table of Contents"><span class="expand-button-action-labels"><span id="button-expand-action" aria-label="Expand"></span><span id="button-collapse-action" aria-label="Collapse"></span><span id="button-pending-action" aria-label="Pending"></span></span><li role="treeitem" aria-expanded="true"><span data-tocid="planning_for_deployment-d62e100" class="topicref" data-id="planning_for_deployment" data-state="expanded"><span role="button" tabindex="0" aria-labelledby="button-collapse-action planning_for_deployment-d62e100-link" class="wh-expand-btn"></span><span class="title"><a href="../../topics/concepts/planning_for_deployment.html" id="planning_for_deployment-d62e100-link">Planning for deployment</a><span class="wh-tooltip"><p xmlns:toc="http://www.oxygenxml.com/ns/webhelp/toc" xmlns:xhtml="http://www.w3.org/1999/xhtml" class="shortdesc"></p></span></span></span><ul role="group" class="navbar-nav nav-list"><span class="expand-button-action-labels"><span id="button-expand-action" aria-label="Expand"></span><span id="button-collapse-action" aria-label="Collapse"></span><span id="button-pending-action" aria-label="Pending"></span></span><li role="treeitem" class="active"><span data-tocid="open_virtual_appliance__ova__configuration_requirements-d62e110" class="topicref" data-id="open_virtual_appliance__ova__configuration_requirements" data-state="leaf"><span role="button" class="wh-expand-btn"></span><span class="title"><a href="../../topics/concepts/open_virtual_appliance__ova__configuration_requirements.html" id="open_virtual_appliance__ova__configuration_requirements-d62e110-link">Open Virtual Appliance (OVA) configuration requirements</a><span class="wh-tooltip"><p xmlns:toc="http://www.oxygenxml.com/ns/webhelp/toc" xmlns:xhtml="http://www.w3.org/1999/xhtml" class="shortdesc"></p></span></span></span></li></ul></li></ul></div>
+                            <div class=" wh_publication_toc " data-tooltip-position="right"><ul role="tree" aria-label="Table of Contents"><span class="expand-button-action-labels"><span id="button-expand-action" aria-label="Expand"></span><span id="button-collapse-action" aria-label="Collapse"></span><span id="button-pending-action" aria-label="Pending"></span></span><li role="treeitem" aria-expanded="true"><span data-tocid="planning_for_deployment-d62e100" class="topicref" data-id="planning_for_deployment" data-state="expanded"><span role="button" tabindex="0" aria-labelledby="button-collapse-action planning_for_deployment-d62e100-link" class="wh-expand-btn"></span><span class="title"><a href="../../topics/concepts/planning_for_deployment.html" id="planning_for_deployment-d62e100-link">Planning for deployment</a><span class="wh-tooltip"><p xmlns:toc="http://www.oxygenxml.com/ns/webhelp/toc" xmlns:xhtml="http://www.w3.org/1999/xhtml" class="shortdesc"></p></span></span></span><ul role="group" class="navbar-nav nav-list"><span class="expand-button-action-labels"><span id="button-expand-action" aria-label="Expand"></span><span id="button-collapse-action" aria-label="Collapse"></span><span id="button-pending-action" aria-label="Pending"></span></span><li role="treeitem" class="active"><span data-tocid="open_virtual_appliance__ova__configuration_requirements-d62e110" class="topicref" data-id="open_virtual_appliance__ova__configuration_requirements" data-state="leaf"><span role="button" class="wh-expand-btn"></span><span class="title"><a href="../../topics/concepts/open_virtual_appliance__ova__configuration_requirements.html" id="open_virtual_appliance__ova__configuration_requirements-d62e110-link">Open Virtual Appliance (OVA) configuration requirements</a><span class="wh-tooltip"><p xmlns:toc="http://www.oxygenxml.com/ns/webhelp/toc" xmlns:xhtml="http://www.w3.org/1999/xhtml" class="shortdesc"></p></span></span></span></li><li role="treeitem"><span data-tocid="network_and_port_requirements-d62e120" class="topicref" data-id="network_and_port_requirements" data-state="leaf"><span role="button" class="wh-expand-btn"></span><span class="title"><a href="../../topics/concepts/network_and_port_requirements.html" id="network_and_port_requirements-d62e120-link">Network and port requirements</a><span class="wh-tooltip"><p xmlns:toc="http://www.oxygenxml.com/ns/webhelp/toc" xmlns:xhtml="http://www.w3.org/1999/xhtml" class="shortdesc"></p></span></span></span></li><li role="treeitem"><span data-tocid="open_ports_for_desktop_client_access_to_the_data_server-d62e130" class="topicref" data-id="open_ports_for_desktop_client_access_to_the_data_server" data-state="leaf"><span role="button" class="wh-expand-btn"></span><span class="title"><a href="../../topics/tasks/open_ports_for_desktop_client_access_to_the_data_server.html" id="open_ports_for_desktop_client_access_to_the_data_server-d62e130-link">Open ports for desktop client access to the data server</a><span class="wh-tooltip"><p xmlns:toc="http://www.oxygenxml.com/ns/webhelp/toc" xmlns:xhtml="http://www.w3.org/1999/xhtml" class="shortdesc">To open ports for desktop client access to the data server on OVA deployed systems, follow these steps:</p></span></span></span></li></ul></li></ul></div>
                         </nav>
                     
                     
@@ -167,14 +167,68 @@
                                         IBM StoredIQ operating code. Do not change its size.</p>
                                     <span class="ph">If you delete the primary disk, you delete the operating system, and the IBM
                         StoredIQ software; the virtual machine might need to be scrapped.
-                        </span>
+                    </span>
+                                </li>
+                                <li class="li">
+                                    <p class="p">Data disk (vmdisk2, SCSI 0:1): Default is 2 TB</p>
+                                    <p class="p">This virtual disk can be resized according to expectations on the amount of harvest data to be
+                                        stored. For purposes of estimation, the index storage requirement for metadata is about 30 GB
+                                        per TB of managed source data. Full-text indexing requires an extra 170 GB per TB. Therefore,
+                                        the default data disk size is targeted for managing 10 TB of source information.</p>
+                                </li>
+                                <li class="li">
+                                    <p class="p">Swap disk (vmdisk3, SCSI 0:2): Default is 40 GB</p>
+                                    <p class="p">When under load, the data server can use much RAM; therefore, having ample swap space is
+                                        prudent. The minimum swap size is equal to the amount of RAM configured for the virtual
+                                        machine. For best performance under load, place this disk on the highest speed data store
+                                        available to the host.</p>
                                 </li>
                             </ul>
                         </li>
                     </ul>
-                    
-                    
+                    <p class="p">
+                        The general size limits for a data server are 150 million objects or 500 defined volumes, whichever
+                        limit is reached first. Assuming an average object size of 200 KB equals about 30 TB of managed
+                        storage across 30 volumes of 5 million objects each, the index storage requirement for metadata on
+                        ~30 TB of storage that contains uncompressed general office documents is ~330 GB (11 GB per TB).
+                        Add 100 GB per TB of managed storage for full-text or snippet index. For example, to support 30 TB
+                        of storage that is indexed for metadata, you need 8 TB indexed for full-text search and extracted text
+                        (snippet cache) of 8 TB for auto-classification. A total of 1.9 TB of storage is required (metadata: 330
+                        GB, full-text: 800 GB, snippet cache: 800 GB).
+                    </p>
+                    <p class="p">
+                        Data-server performance is impacted by the IOPS available from the storage subsystem. For each
+                        data server under maximum workload, at least 650 IOPS generally delivers acceptable performance.
+                        In the situations where there is a high load on the system, the IOPS that is used can reach up to 7000
+                        with main write operations.
+                    </p>
+                        
                 </dd>
+            
+            
+            
+                <dt class="dt dlterm">DataServer - Distributed</dt>
+                <dd class="dd">
+                    <ul class="ul">
+                        <li class="li">vCPU: 4</li>  
+                        <li class="li">Memory: 16 GB</li>  
+                        <li class="li">Storage:
+                        <ul class="ul">
+                            <li class="li">Primary disk (vmdisk1): 100 GB</li>
+                            <li class="li">Data disk (vmdisk2): 1 TB</li>
+                        </ul>
+                        </li>    
+                    </ul>
+                    <p class="p">The required memory depends on the index size that is handled by the data node. For a better
+                        performance, consider increasing the memory. The total memory available to the node must be
+                        distributed between the host operating system, the Elasticsearch java heap space, and the kernel file
+                        system caches. For example, if the system has 32 GB memory, 2 GB must be allocated for the host
+                        operating system, 15 GB for the java heap space, and the remaining 15 GB for the file system caches.</p>
+                    <p class="p">The data disk (vmdisk2) can be resized according to expectations on the amount of harvest data to be
+                        stored.</p>
+                </dd>
+            
+            
             
             
             

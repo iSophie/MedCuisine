@@ -6,16 +6,31 @@
     <conbody>
         <p>
 
-            <hazardstatement   type="attention">
+            <hazardstatement type="caution">
                 <messagepanel>
-                    <typeofhazard> 
-                        <ph id="pri">If you delete the primary disk, you delete the operating system, and the IBM
+                    <typeofhazard> Deleting primary disc</typeofhazard>
+                    <howtoavoid><ph id="pri">If you delete the primary disk, you delete the operating system, and the IBM
                         StoredIQ software; the virtual machine might need to be scrapped.
-                        </ph>
-                    </typeofhazard>
-                    <howtoavoid></howtoavoid>
+                    </ph></howtoavoid>
+                    <howtoavoid>If you delete the primary disk, you delete the operating system, and the IBM
+                        StoredIQ software; the virtual machine might need to be scrapped.
+                    </howtoavoid>
                 </messagepanel>
             </hazardstatement>
+            
+            <hazardstatement type="important">
+                <messagepanel>
+                    <typeofhazard> Coplete setup beforefirst bootc</typeofhazard>
+                    <howtoavoid><ph id="Ela">If your IBM StoredIQ environment includes an Elasticsearch cluster, do not select this
+                        option when you're deploying the data server OVA. The Elasticsearch cluster setup must be
+                        complete before you run the data server first-boot process.
+                    </ph></howtoavoid>
+                    
+                </messagepanel>
+                <hazardsymbol href="../../resources/images/warning.jpg"/>
+            </hazardstatement>
+            
+            
         </p>
     </conbody>
 </concept>

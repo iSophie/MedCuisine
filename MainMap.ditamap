@@ -14,5 +14,17 @@
     <topicref href="topics/concepts/planning_for_deployment.dita">
         <topicref
             href="topics/concepts/open_virtual_appliance__ova__configuration_requirements.dita"/>
+        <topicref href="topics/concepts/network_and_port_requirements.dita">
+            <topicref
+                href="topics/tasks/open_ports_for_desktop_client_access_to_the_data_server.dita"/>
+        </topicref>
+        <topicref href="topics/concepts/environment_sizing_guidelines.dita"/>
+        <topicref href="topics/concepts/stack_provisioning_prerequisites.dita"/>
+        <topicref href="topics/concepts/license_usage_metrics.dita"/>
+        <topicref href="topics/concepts/security.dita"/>
+    </topicref>
+    <topicref href="topics/concepts/deploying_ibm_storediq.dita">
+        <topicref href="topics/tasks/deploying_the_virtual_appliances.dita"/>
+        <topicref href="topics/tasks/deploying_ibm_storediq_on_microsoft_hyper_v.dita"/>
     </topicref>
 </map>

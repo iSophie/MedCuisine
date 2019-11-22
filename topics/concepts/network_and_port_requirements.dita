@@ -1,0 +1,354 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="network_and_port_requirements">
+    <title>Network and port requirements</title>
+    <shortdesc></shortdesc>
+    <conbody>
+        <p>For proper communication, the IBM StoredIQ components must be able to connect to each other.</p>
+        <p>You must enable network connectivity from the following locations:</p>
+        <ul>
+            <li>
+                The data server IP address to the gateway IP address on port 11103
+            </li>
+            <li>
+                The gateway IP address to and from the application stack IP address on port 8765 and 5432
+            </li>
+            <li>
+                
+                Ports 80, 443, and 22 from the administrative workstation to the application stack and data server IP
+                addresses
+            </li>
+            <li>
+                Port 22 from the administrative workstation to the gateway IP address.
+            </li>
+        </ul>
+        
+        <section>
+            <title>TCP: port ranges for the firewall</title>
+            <p>To ensure the network access for desktop volumes, the following port ranges must be open through a
+                firewall.</p>
+            <ul>
+                <li>
+                    21000-21004
+                </li>
+                <li>
+                    21100-21101
+                </li>
+                <li>
+                    21110-21130
+                </li>
+                <li>
+                    21200-21204
+                </li>
+            </ul>
+        </section>
+        <section>
+            <title>
+                Default open ports
+            </title>
+            <p>The following ports are open by default on the IBM StoredIQ.</p>
+            
+            <dl>
+                <dlentry>
+                    <dt>SSH port 22</dt>
+                    <dd>By default, port 22 is open on all IBM StoredIQ hosts. The port is used for Secure Shell (SSH)
+                        communication and allows remote administration access to the VM. In general, traffic is encrypted using
+                        password authentication. To add a layer of security, you can establish key-based authentication for
+                        passwordless SSH logins to any of the IBM StoredIQ nodes in your environment as described in
+                        “Configuring SSH key-based authentication” on page 45.
+                    </dd>
+                </dlentry>
+                <dlentry>
+                    <dt>Default open ports on the AppStack</dt>
+                    <dd>
+                        <table frame="all" colsep="1" rowsep="1">
+                            <tgroup cols="2">
+                                <colspec colname="COLSPEC0" colwidth="121*" colsep="1" rowsep="1"/>
+                                <colspec colname="COLSPEC1" colwidth="76*" colsep="1" rowsep="1"/>
+                                <thead>
+                                    <row rowsep="1">
+                                        <entry colname="COLSPEC0" valign="top" colsep="1" rowsep="1"
+                                            >Port number</entry>
+                                        <entry colname="COLSPEC1" valign="top" colsep="1" rowsep="1"
+                                            >Protocol</entry>
+                                    </row>
+                                </thead>
+                                <tbody>
+                                    <row rowsep="1">
+                                        <entry colsep="1" rowsep="1">22</entry>
+                                        <entry colsep="1" rowsep="1">tcp</entry>
+                                    </row>
+                                    <row rowsep="1">
+                                        <entry colsep="1" rowsep="1">80</entry>
+                                        <entry colsep="1" rowsep="1">tcp</entry>
+                                    </row>
+                                    <row rowsep="1">
+                                        <entry colsep="1" rowsep="1">443</entry>
+                                        <entry colsep="1" rowsep="1">tcp</entry>
+                                    </row>
+                                </tbody>
+                            </tgroup>
+                        </table>
+                        
+                    </dd>
+                </dlentry>
+                
+                <dlentry>
+                    <dt>Default open ports on the IBM StoredIQ data server</dt>
+                    <dd>
+                        
+                        <table frame="all" colsep="1" rowsep="1">
+                            <tgroup cols="3">
+                                <colspec colname="COLSPEC0" colwidth="1.76*" align="left" colsep="1"
+                                    rowsep="1"/>
+                                <colspec colname="COLSPEC1" colwidth="1*" align="left" colsep="1"
+                                    rowsep="1"/>
+                                <colspec colname="COLSPEC2" colwidth="1.21*" align="left" colsep="1"
+                                    rowsep="1"/>
+                                <thead>
+                                    <row>
+                                        <entry colname="COLSPEC0" valign="top">Port number</entry>
+                                        <entry colname="COLSPEC1" valign="top">Protocol</entry>
+                                        <entry colname="COLSPEC2" valign="top">Service</entry>
+                                    </row>
+                                </thead>
+                                <tbody>
+                                    <row rowsep="1">
+                                        <entry align="left" colsep="1">22</entry>
+                                        <entry align="left" colsep="1">tcp</entry>
+                                        <entry align="left" colsep="1">PROD-ssh</entry>
+                                    </row>
+                                    <row rowsep="1">
+                                        <entry align="left" colsep="1">80</entry>
+                                        <entry align="left" colsep="1">tcp</entry>
+                                        <entry align="left" colsep="1">PROD-web</entry>
+                                    </row>
+                                    <row rowsep="1">
+                                        <entry align="left" colsep="1">443</entry>
+                                        <entry align="left" colsep="1">tcp</entry>
+                                        <entry align="left" colsep="1">PROD-https (UI and Web
+                                            Services APIs)</entry>
+                                    </row>
+                                    <row rowsep="1">
+                                        <entry align="left" colsep="1">11103</entry>
+                                        <entry morerows="1" align="left" colsep="1">tcptcp</entry>
+                                        <entry morerows="1" align="left" colsep="1">PROD-transport
+                                            (IBM StoredIQ transport services; communication between
+                                            the gateway and the data server)PROD-transport (IBM
+                                            StoredIQ transport services; communication between the
+                                            gateway and the data server)</entry>
+                                    </row>
+                                    <row rowsep="1">
+                                        <entry align="left" colsep="1">11104</entry>
+                                    </row>
+                                </tbody>
+                            </tgroup>
+                        </table>
+                        
+                    </dd>
+                </dlentry>
+                
+                <dlentry>
+                    <dt>Enable or disable ports or services on the IBM StoredIQ data server</dt>
+                    <dd>
+                        <p>To manage ports, you can use the /usr/local/storediq/bin/util/port_handler.pyc script with
+                            the appropriate parameter:</p>
+                        <codeblock>python /usr/local/storediq/bin/util/port_handler.pyc -parameter</codeblock>
+                        <dl>
+                            <dlentry>
+                                <dt>-s</dt>
+                                <dd>To list the current rules in iptables</dd>
+                            </dlentry>
+                            <dlentry>
+                                <dt>-l</dt>
+                                <dd>To list the supported services</dd>
+                            </dlentry>
+                            <dlentry>
+                                <dt>-d port_number|'port_range'</dt>
+                                <dd>To delete a port or a range of port numbers from iptables, for example:
+                                    <codeblock>python /usr/local/storediq/bin/util/port_handler.pyc -d '21200:21299'</codeblock>
+                                </dd>
+                            </dlentry>
+                            <dlentry>
+                                <dt>-e 'service_name'</dt>
+                                <dd>To enable a specific service, for example, to enable HTTPS services:
+                                    <codeblock>python /usr/local/storediq/bin/util/port_handler.pyc -e 'PROD-https'</codeblock>
+                                </dd>
+                            </dlentry>
+                            <dlentry>
+                                <dt>-d 'service_name'</dt>
+                                <dd>To disable a specific service, for example, to disable HTTPS services:
+                                    <codeblock>python /usr/local/storediq/bin/util/port_handler.pyc -d 'PROD-https'</codeblock>
+                                </dd>
+                            </dlentry>
+                            
+                        </dl>
+                        
+                        
+                    </dd>
+                </dlentry>
+                <dlentry>
+                    <dt>Default open ports on the nodes in the Elasticsearch cluster</dt>
+                    <dd>
+                        
+                        <table frame="all" colsep="1" rowsep="1">
+                            <tgroup cols="3">
+                                <colspec colname="COLSPEC0" colwidth="1*" align="left" colsep="1"
+                                    rowsep="1"/>
+                                <colspec colname="COLSPEC1" colwidth="1.05*" align="left" colsep="1"
+                                    rowsep="1"/>
+                                <colspec colname="COLSPEC2" colwidth="3.24*" align="left" colsep="1"
+                                    rowsep="1"/>
+                                <thead>
+                                    <row>
+                                        <entry colname="COLSPEC0" valign="top">Port number</entry>
+                                        <entry colname="COLSPEC1" valign="top">Protocol</entry>
+                                        <entry colname="COLSPEC2" valign="top">Service</entry>
+                                    </row>
+                                </thead>
+                                <tbody>
+                                    <row rowsep="1">
+                                        <entry align="left" colsep="1">21</entry>
+                                        <entry align="left" colsep="1">tcp</entry>
+                                        <entry align="left" colsep="1">ftp</entry>
+                                    </row>
+                                    <row rowsep="1">
+                                        <entry align="left" colsep="1">22</entry>
+                                        <entry align="left" colsep="1">tcp</entry>
+                                        <entry align="left" colsep="1">sshd</entry>
+                                    </row>
+                                    <row rowsep="1">
+                                        <entry align="left" colsep="1">443</entry>
+                                        <entry align="left" colsep="1">tcp</entry>
+                                        <entry align="left" colsep="1"> </entry>
+                                    </row>
+                                    <row rowsep="1">
+                                        <entry align="left" colsep="1">8888</entry>
+                                        <entry align="left" colsep="1">tcp</entry>
+                                        <entry align="left" colsep="1">SimpleHTTPServer (used for
+                                            copying the siqelasticsearch.yml configuration file from
+                                            the Elasticsearch node to the data server)</entry>
+                                    </row>
+                                    <row rowsep="1">
+                                        <entry align="left" colsep="1">9200</entry>
+                                        <entry align="left" colsep="1">tcp6</entry>
+                                        <entry align="left" colsep="1">docker-proxy (listening for
+                                            REST requests) You can restrict access to this port by
+                                            either enabling Search Guard or by setting up a
+                                            firewall. For more information, see “Securing
+                                            Elasticsearch cluster communication with Search Guard”
+                                            on page 51 or “Restricting access to port 9200 on
+                                            Elasticsearch nodes” on page 52.</entry>
+                                    </row>
+                                    <row rowsep="1">
+                                        <entry align="left" colsep="1">9300</entry>
+                                        <entry align="left" colsep="1">tcp6</entry>
+                                        <entry align="left" colsep="1">docker-proxy (internode
+                                            communication)</entry>
+                                    </row>
+                                </tbody>
+                            </tgroup>
+                        </table>
+                    </dd>
+                </dlentry>
+                
+                <dlentry>
+                    <dt>Default open ports on the IBM StoredIQ gateway</dt>
+                    <dd>
+                        
+                        <table frame="all" colsep="1" rowsep="1">
+                            <tgroup cols="3">
+                                <colspec colname="COLSPEC0" colwidth="1.56*" align="left" colsep="1"
+                                    rowsep="1"/>
+                                <colspec colname="COLSPEC1" colwidth="1*" align="left" colsep="1"
+                                    rowsep="1"/>
+                                <colspec colname="COLSPEC2" colwidth="3.27*" align="left" colsep="1"
+                                    rowsep="1"/>
+                                <thead>
+                                    <row>
+                                        <entry colname="COLSPEC0" valign="top">Port number</entry>
+                                        <entry colname="COLSPEC1" valign="top">Protocol</entry>
+                                        <entry colname="COLSPEC2" valign="top">Service</entry>
+                                    </row>
+                                </thead>
+                                <tbody>
+                                    <row rowsep="1">
+                                        <entry align="left" colsep="1">22</entry>
+                                        <entry align="left" colsep="1">tcp</entry>
+                                        <entry align="left" colsep="1">PROD-ssh</entry>
+                                    </row>
+                                    <row rowsep="1">
+                                        <entry align="left" colsep="1">80</entry>
+                                        <entry align="left" colsep="1">tcp</entry>
+                                        <entry align="left" colsep="1">PROD-web</entry>
+                                    </row>
+                                    <row rowsep="1">
+                                        <entry align="left" colsep="1">443</entry>
+                                        <entry align="left" colsep="1">tcp</entry>
+                                        <entry align="left" colsep="1">PROD-https (UI and Web
+                                            Services APIs)</entry>
+                                    </row>
+                                    <row rowsep="1">
+                                        <entry align="left" colsep="1">5432</entry>
+                                        <entry align="left" colsep="1">tcp</entry>
+                                        <entry align="left" colsep="1">PROD-postgres</entry>
+                                    </row>
+                                    <row rowsep="1">
+                                        <entry align="left" colsep="1">5434</entry>
+                                        <entry align="left" colsep="1" morerows="5">tcp</entry>
+                                        <entry align="left" colsep="1" morerows="5"> PROD-transport
+                                            (IBM StoredIQ transport services; communication between
+                                            the gateway and the data server) </entry>
+                                    </row>
+                                    <row rowsep="1">
+                                        <entry align="left" colsep="1">8765</entry>
+                                    </row>
+                                    <row rowsep="1">
+                                        <entry align="left" colsep="1">7766</entry>
+                                    </row>
+                                    <row rowsep="1">
+                                        <entry align="left" colsep="1">11102</entry>
+                                    </row>
+                                    <row rowsep="1">
+                                        <entry align="left" colsep="1">11103</entry>
+                                    </row>
+                                    <row rowsep="1">
+                                        <entry align="left" colsep="1">11104</entry>
+                                    </row>
+                                </tbody>
+                            </tgroup>
+                        </table> 
+                    </dd>
+                </dlentry> 
+                <dlentry>
+                    <dt>Supported chain and rules on the IBM StoredIQ gateway</dt>
+                    <dd>
+                        <p>In iptables, the following firewall and chain rules are defined:</p>
+                        <codeblock>'PROD-transport':['5434','8765','7766','11102','11103','11104'],
+                            'PROD-https':['443'],'PROD-ssh':['22'],
+                            'PROD-web':['80'],
+                            'PROD-postgres':[’5432’]</codeblock>
+                        <codeblock>'desktop' service:
+                            'PROD-broker':['21000'],
+                            'PROD-collectionsvc':['21300:21399'],
+                            'PROD-desktopupgrade':['21004'],
+                            'PROD-objlistmgr':['21100:21199'],
+                            'PROD-objlistsvc':['21200:21299'],
+                            'PROD-registration':['21001'],
+                            'PROD-session':['21002'],
+                            'PROD-task':['21003'],</codeblock>
+                    </dd>
+                </dlentry>
+                
+                
+                
+            </dl>
+            
+            
+            
+            
+            
+            
+        </section>
+    </conbody>
+</concept>

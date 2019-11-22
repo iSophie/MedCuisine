@@ -15,4 +15,8 @@
                path="topics/concepts/planning_for_deployment.html"/>
    <appContext helpID="open_virtual_appliance__ova__configuration_requirements"
                path="topics/concepts/open_virtual_appliance__ova__configuration_requirements.html"/>
+   <appContext helpID="network_and_port_requirements"
+               path="topics/concepts/network_and_port_requirements.html"/>
+   <appContext helpID="open_ports_for_desktop_client_access_to_the_data_server"
+               path="topics/tasks/open_ports_for_desktop_client_access_to_the_data_server.html"/>
 </map>

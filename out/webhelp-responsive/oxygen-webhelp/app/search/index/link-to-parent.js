@@ -1,4 +1,4 @@
 /*Maps current topic to its parent: "topicIndex:parentIndex". -1 represents the map.*/
 define(function () {
-return {4:-1,0:-1,2:0,5:6,6:-1,7:4,3:4,1:0};
+return {5:7,6:7,1:0,0:-1,3:4,9:7,2:0,4:-1,8:4,7:-1};
 });
