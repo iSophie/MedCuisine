@@ -3,6 +3,14 @@
 <concept id="planning_for_deployment">
     <title>Planning for deployment</title>
     <shortdesc></shortdesc>
+    <prolog>
+        <metadata>
+            <keywords conkeyref="indexKey/ind">
+                
+            </keywords>
+        </metadata>
+    </prolog>
+    
     <conbody>
         <p>When you plan a deployment of IBM StoredIQ, evaluate several infrastructure considerations.</p>
         <p>In addition to the information in this section, review the requirements detailed in the IBM Software

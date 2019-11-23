@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE glossgroup PUBLIC "-//OASIS//DTD DITA Glossary Group//EN" "glossgroup.dtd">
 <glossgroup id="glossary">
-    <title>Important terms</title>
+    <title>Glossary of Important terms</title>
     
     <glossentry id="a">
         <glossterm>Application stack</glossterm>

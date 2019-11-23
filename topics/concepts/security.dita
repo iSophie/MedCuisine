@@ -3,6 +3,13 @@
 <concept id="security">
     <title>Security</title>
     <shortdesc></shortdesc>
+    <prolog>
+        <metadata>
+            <keywords conkeyref="indexKey/ind">
+            </keywords>
+        </metadata>
+    </prolog>
+    
     <conbody>
         <p>Plan and implement specific security measures to protect the application and the data it manages,
             especially when you deploy IBM StoredIQ into sensitive environments.</p>

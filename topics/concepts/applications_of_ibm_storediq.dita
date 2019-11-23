@@ -3,6 +3,13 @@
 <concept id="applications_of_ibm_storediq">
     <title>Applications of IBM StoredIQ</title>
     <shortdesc>IBM StoredIQ provides interface applications that help fulfill its solution goals.</shortdesc>
+    <prolog>
+        <metadata>
+            <keywords conkeyref="indexKey/ind">
+                
+            </keywords>
+        </metadata>
+    </prolog>
     <conbody>
         <section>
             <title>IBM StoredIQ Data Server</title>
@@ -15,7 +22,7 @@
                 
         </section>
         
-        <section>
+        <section audience="expert">
             <title>IBM StoredIQ Administrator</title>
             <p>IBM StoredIQ Administrator helps you manage global assets common to the distributed infrastructure
                 behind IBM StoredIQ applications.

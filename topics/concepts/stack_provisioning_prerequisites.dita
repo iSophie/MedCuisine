@@ -3,6 +3,14 @@
 <concept id="stack_provisioning_prerequisites">
     <title>Stack-provisioning prerequisites</title>
     <shortdesc></shortdesc>
+    <prolog>
+        <metadata>
+            <keywords conkeyref="indexKey/ind">
+                
+            </keywords>
+        </metadata>
+    </prolog>
+    
     <conbody>
         <p>Before a deployment, verify that you meet these prerequisites.</p>
         <ul>

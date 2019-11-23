@@ -4,8 +4,15 @@
     <title>Solution components</title>
     <shortdesc>IBM StoredIQ provides three solution components: the gateway, data servers, and application stack
         (AppStack).</shortdesc>
+    <prolog>
+        <metadata>
+            <keywords conkeyref="indexKey/ind">
+                
+            </keywords>
+        </metadata>
+    </prolog>
     <conbody>
-        <section>
+        <section product="product1">
             <dl>
                 <dlentry>
                     <dt>Gateway</dt>
@@ -19,7 +26,7 @@
                         A data server obtains the data from supported data sources and indexes it. By indexing this data, you
                         gain information about unstructured data such as file size, file data types, file owners.</p>
                         
-                        <p>The data server pushes the information about volumes and indexes to the gateway so it can be
+                        <p >The data server pushes the information about volumes and indexes to the gateway so it can be
                             communicated to the application stack. Multiple data servers feed into a single gateway.</p>
                         
                         <p> Data servers can be categorized in two types: DataServer - Classic and DataServer - Distributed. A

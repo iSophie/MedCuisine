@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
 <map>
-    <title>Main Map</title>
+    <title>IBM publication Project 2</title>
+    <topicref href="topics/concepts/cover_page.dita"/>
     <topicref href="topics/concepts/About-this-publication.dita">
         <topicref href="topics/concepts/IBM-StoredIQ-product-library.dita"/>
         <topicref href="topics/concepts/Contacting-IBM-StoredIQ-customer-support.dita"/>
@@ -31,4 +32,36 @@
         <topicref href="topics/glossary/Glossary.dita"></topicref>
     </topichead>
     <topicref href="secondarymap.ditamap" format="ditamap"/>
+    <mapref href="indexMap.ditamap" format="ditamap"/>
+    
+    <topichead navtitle="Glossary">
+        
+        <topichead navtitle="A">
+            <topicref href="topics/glossary/Glossary.dita#a"/>
+            <topicref href="topics/glossary/Glossary.dita#ac"/>
+        </topichead>
+        
+        <topichead navtitle="C">
+            <topicref href="topics/glossary/Glossary.dita#Ca"/>
+            <topicref href="topics/glossary/Glossary.dita#Co"/>
+        </topichead>
+        
+        <topichead navtitle="D">
+            <topicref href="topics/glossary/Glossary.dita#dsc"/>
+            <topicref href="topics/glossary/Glossary.dita#dsd"/>
+            <topicref href="topics/glossary/Glossary.dita#dss"/>
+        </topichead>
+        
+        <topichead navtitle="G">
+            <topicref href="topics/glossary/Glossary.dita#g"/>
+        </topichead>
+        
+        <topichead navtitle="I">
+            <topicref href="topics/glossary/Glossary.dita#is"/>
+        </topichead>
+        
+    </topichead>
+    
+    
 </map>
+   

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="indexterms">
+    <title>IndexTerms</title>
+    <shortdesc></shortdesc>
+    
+    <prolog>
+        <metadata>
+            <keywords id="ind">
+                <indexterm>harvesting
+                    <indexterm>
+                        indexing
+                    </indexterm>
+                </indexterm>
+                <indexterm>cartridges
+                    <indexterm>
+                        Step-up analytics
+                    </indexterm>
+                </indexterm>
+                <indexterm>workbench</indexterm>
+                <indexterm>license</indexterm>
+                <indexterm>PostgreSQL</indexterm>
+                <indexterm>Elasticsearch
+                <indexterm>cluster</indexterm>
+                </indexterm>
+                <indexterm>Auto-classification</indexterm>
+                <indexterm>
+                    Mule
+                    <indexterm>
+                        automation
+                    </indexterm>
+                </indexterm>
+                <indexterm>IBM StoredIQ</indexterm>
+                <indexterm>hypervisors</indexterm>
+                
+                <indexterm>ESXi/ESX
+                    <indexterm>
+                        RAM
+                    </indexterm>
+                </indexterm>
+                
+                <indexterm>
+                    SSH <index-see>Secure Shell</index-see>
+                </indexterm>
+                <indexterm>
+                    CIFS
+                </indexterm>
+                <indexterm>
+                    NIST
+                </indexterm>
+                <indexterm>
+                    interrogator
+                </indexterm>
+                <indexterm >
+                    VMware <index-see>interface </index-see>
+                </indexterm>
+                
+                
+                
+                
+                <indexterm >
+                    AppStack <index-see>encryption </index-see>
+                </indexterm>
+                <indexterm >
+                    components <index-see>stunnel </index-see>
+                </indexterm>
+                
+                
+                <indexterm >
+                    LUKS 
+                </indexterm>
+                <indexterm >
+                    vCPUs <index-see>VMDK </index-see>
+                </indexterm>
+                <indexterm >
+                    IOPS <index-see>heap </index-see>
+                </indexterm>
+            </keywords>
+        </metadata>
+    </prolog>
+    
+    
+    <conbody>
+        <p></p>
+    </conbody>
+</concept>

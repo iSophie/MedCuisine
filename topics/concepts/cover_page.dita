@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="cover_page">
+    <title>Cover Page</title>
+    <shortdesc>Techniques used in this document</shortdesc>
+    <conbody>
+        <p>Created reusablecontentlibrary.dita file where I placed all images used in the document using conref</p>
+        <p>Created safety.dita file with hazard statements which are reused in "Open Virtual Appliance (OVA) configuration requirements" and Deploying the virtual appliances</p>
+        <p>Createdsecondarymap to create keys for  elements above</p>
+        <p>created internal links which are dummy because they were leading to content which was removed. They all go to  "About this  publication"</p>
+        <p>Created Glossary</p>
+        <p>Created Index</p>
+        <p>Created val1 file with conditional processing</p>
+    </conbody>
+</concept>
