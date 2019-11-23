@@ -76,7 +76,14 @@
                         <cmd>Within the <b> Ready to Complete</b> page, review the deployment settings. Click <b>Finish</b> to complete the
                             Deploy OVF Template.</cmd> 
                         <stepresult>At this point, you can select the <b>Power on</b> check box to turn on the VM after deployment is
-                            complete. <ph conkeyref="safety/Ela"></ph> </stepresult>
+                            complete. 
+                            <hazardstatement conkeyref="safety/Ela">
+                                <messagepanel>
+                                    <typeofhazard></typeofhazard>
+                                    <howtoavoid></howtoavoid>
+                                </messagepanel>
+                            </hazardstatement>
+                        </stepresult>
                     </substep>
                     
                 </substeps>

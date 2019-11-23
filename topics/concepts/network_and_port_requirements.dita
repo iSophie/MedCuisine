@@ -55,7 +55,7 @@
                         communication and allows remote administration access to the VM. In general, traffic is encrypted using
                         password authentication. To add a layer of security, you can establish key-based authentication for
                         passwordless SSH logins to any of the IBM StoredIQ nodes in your environment as described in
-                        “Configuring SSH key-based authentication” on page 45.
+                        <xref href="About-this-publication.dita">“Configuring SSH key-based authentication”</xref> on page 45.
                     </dd>
                 </dlentry>
                 <dlentry>
@@ -226,7 +226,7 @@
                                         <entry align="left" colsep="1">8888</entry>
                                         <entry align="left" colsep="1">tcp</entry>
                                         <entry align="left" colsep="1">SimpleHTTPServer (used for
-                                            copying the siqelasticsearch.yml configuration file from
+                                            copying the <codeph>siqelasticsearch.yml</codeph> configuration file from
                                             the Elasticsearch node to the data server)</entry>
                                     </row>
                                     <row rowsep="1">
@@ -235,10 +235,10 @@
                                         <entry align="left" colsep="1">docker-proxy (listening for
                                             REST requests) You can restrict access to this port by
                                             either enabling Search Guard or by setting up a
-                                            firewall. For more information, see “Securing
+                                            firewall. For more information, see <xref href="About-this-publication.dita">“Securing
                                             Elasticsearch cluster communication with Search Guard”
-                                            on page 51 or “Restricting access to port 9200 on
-                                            Elasticsearch nodes” on page 52.</entry>
+                                            on page 51</xref> or <xref href="About-this-publication.dita">“Restricting access to port 9200 on
+                                            Elasticsearch nodes” on page 52.</xref></entry>
                                     </row>
                                     <row rowsep="1">
                                         <entry align="left" colsep="1">9300</entry>

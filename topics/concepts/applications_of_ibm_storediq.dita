@@ -78,8 +78,8 @@
                         Workbench.
                     </p>
                     <p>
-                        <b>Note:</b> Actions can be created within IBM StoredIQ Administrator and then made available to other IBM
-                        StoredIQ applications such as IBM StoredIQ Data Workbench.
+                        <note><b>Note:</b> Actions can be created within IBM StoredIQ Administrator and then made available to other IBM
+                        StoredIQ applications such as IBM StoredIQ Data Workbench.</note>
                     </p>
                 </li>
                 

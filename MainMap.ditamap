@@ -10,7 +10,7 @@
         <topicref href="topics/concepts/solution_components.dita"/>
         <topicref href="topics/concepts/applications_of_ibm_storediq.dita"/>
     </topicref>
-    <topicref href="secondarymap.ditamap" format="ditamap"/>
+    
     <topicref href="topics/concepts/planning_for_deployment.dita">
         <topicref
             href="topics/concepts/open_virtual_appliance__ova__configuration_requirements.dita"/>
@@ -27,4 +27,8 @@
         <topicref href="topics/tasks/deploying_the_virtual_appliances.dita"/>
         <topicref href="topics/tasks/deploying_ibm_storediq_on_microsoft_hyper_v.dita"/>
     </topicref>
+    <topichead navtitle="Glossary">
+        <topicref href="topics/glossary/Glossary.dita"></topicref>
+    </topichead>
+    <topicref href="secondarymap.ditamap" format="ditamap"/>
 </map>

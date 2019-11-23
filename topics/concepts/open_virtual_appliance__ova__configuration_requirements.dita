@@ -88,7 +88,12 @@
                                     <p>Primary disk (vmdisk1, SCSI 0:0): Default is 150 GB</p>
                                     <p>This virtual disk has an associated VMDK that contains the
                                         IBM StoredIQ operating code. Do not change its size.</p>
-                                    <ph conkeyref="safety/pri"/>
+                                    <hazardstatement conkeyref="safety/haz1">
+                                        <messagepanel>
+                                            <typeofhazard></typeofhazard>
+                                            <howtoavoid></howtoavoid>
+                                        </messagepanel>
+                                    </hazardstatement>
                                 </li>
                                 <li>
                                     <p>Data disk (vmdisk2, SCSI 0:1): Default is 2 TB</p>

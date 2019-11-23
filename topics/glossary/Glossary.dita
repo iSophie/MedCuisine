@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE glossgroup PUBLIC "-//OASIS//DTD DITA Glossary Group//EN" "glossgroup.dtd">
+<glossgroup id="glossary">
+    <title>Important terms</title>
+    
+    <glossentry id="a">
+        <glossterm>Application stack</glossterm>
+        <glossdef>x</glossdef>
+    </glossentry>
+    
+    <glossentry id="ac">
+        <glossterm>Auto-classification</glossterm>
+        <glossdef> x</glossdef>
+    </glossentry>
+    
+    <glossentry id="ca">
+        <glossterm>Cartridges</glossterm>
+        <glossdef>x</glossdef>
+    </glossentry>
+    
+    <glossentry id="co">
+        <glossterm>Connector API SDK</glossterm>
+        <glossdef>x</glossdef>
+    </glossentry>
+    
+    <glossentry id="dsc">
+        <glossterm>DataServer - Classic</glossterm>
+        <glossdef> x.</glossdef>
+    </glossentry>
+    
+    <glossentry id="dsd">
+        <glossterm>DataServer - distributed</glossterm>
+        <glossdef> x</glossdef>
+    </glossentry>
+    
+    <glossentry id="dss">
+        <glossterm>DataServers</glossterm>
+        <glossdef> x.</glossdef>
+    </glossentry>
+    
+    <glossentry id="g">
+        <glossterm>Gateway</glossterm>
+        <glossdef> x</glossdef>
+    </glossentry>
+    
+    <glossentry id="is">
+        <glossterm>IBM StoredIQ Insights</glossterm>
+        <glossdef> x</glossdef>
+    </glossentry>
+    
+    
+    
+   
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+</glossgroup>

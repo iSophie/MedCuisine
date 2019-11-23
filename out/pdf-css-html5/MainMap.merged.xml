@@ -6,9 +6,11 @@
     <title xmlns:dita-ot="http://dita-ot.sourceforge.net/ns/201007/dita-ot" class="- topic/title ">Main Map</title>
     <topicref xmlns:dita-ot="http://dita-ot.sourceforge.net/ns/201007/dita-ot" is-chapter="true" class="- map/topicref " href="#unique_1" type="concept"><topicmeta class="- map/topicmeta " data-topic-id="About"><resourceid appid="About" class="- topic/resourceid " oxy-source="topic"/><navtitle href="#unique_1" class="- topic/navtitle ">About this publication</navtitle><?ditaot gentext?><?ditaot genshortdesc?><shortdesc class="- map/shortdesc ">IBM StoredIQ Deployment and Configuration Guide provides information about how to plan, deploy, and         configure the IBM StoredIQ product.</shortdesc></topicmeta><topicref class="- map/topicref " href="#unique_2" type="concept"><topicmeta class="- map/topicmeta " data-topic-id="IBM_StoredIQ"><resourceid appid="IBM_StoredIQ" class="- topic/resourceid " oxy-source="topic"/><navtitle href="#unique_2" class="- topic/navtitle ">IBM StoredIQ product library</navtitle><?ditaot gentext?><?ditaot genshortdesc?><shortdesc class="- map/shortdesc ">The following documents are available in the IBM® StoredIQ® product library.</shortdesc></topicmeta></topicref><topicref class="- map/topicref " href="#unique_3" type="concept"><topicmeta class="- map/topicmeta " data-topic-id="Contacting"><resourceid appid="Contacting" class="- topic/resourceid " oxy-source="topic"/><navtitle href="#unique_3" class="- topic/navtitle ">Contacting IBM StoredIQ customer support</navtitle><?ditaot gentext?><?ditaot genshortdesc?><shortdesc class="- map/shortdesc ">For IBM StoredIQ technical support or to learn about available service options, contact IBM StoredIQ         customer support at this phone number:</shortdesc></topicmeta></topicref></topicref>
     <topicref xmlns:dita-ot="http://dita-ot.sourceforge.net/ns/201007/dita-ot" is-chapter="true" class="- map/topicref " href="#unique_4" type="concept"><topicmeta class="- map/topicmeta " data-topic-id="ibm_storediq_components"><resourceid appid="ibm_storediq_components" class="- topic/resourceid " oxy-source="topic"/><navtitle href="#unique_4" class="- topic/navtitle ">IBM StoredIQ components</navtitle><?ditaot gentext?><?ditaot genshortdesc?><shortdesc class="- map/shortdesc "/></topicmeta><topicref class="- map/topicref " href="#unique_5" type="concept"><topicmeta class="- map/topicmeta " data-topic-id="solution_components"><resourceid appid="solution_components" class="- topic/resourceid " oxy-source="topic"/><navtitle href="#unique_5" class="- topic/navtitle ">Solution components</navtitle><?ditaot gentext?><?ditaot genshortdesc?><shortdesc class="- map/shortdesc ">IBM StoredIQ provides three solution components: the gateway, data servers, and application stack         (AppStack).</shortdesc></topicmeta></topicref><topicref class="- map/topicref " href="#unique_6" type="concept"><topicmeta class="- map/topicmeta " data-topic-id="applications_of_ibm_storediq"><resourceid appid="applications_of_ibm_storediq" class="- topic/resourceid " oxy-source="topic"/><navtitle href="#unique_6" class="- topic/navtitle ">Applications of IBM StoredIQ</navtitle><?ditaot gentext?><?ditaot genshortdesc?><shortdesc class="- map/shortdesc ">IBM StoredIQ provides interface applications that help fulfill its solution goals.</shortdesc></topicmeta></topicref></topicref>
-    <?ditaot gentext?><?ditaot genshortdesc?><?ditaot gentext?><?ditaot genshortdesc?>
+    
     <topicref xmlns:dita-ot="http://dita-ot.sourceforge.net/ns/201007/dita-ot" is-chapter="true" class="- map/topicref " href="#unique_7" type="concept"><topicmeta class="- map/topicmeta " data-topic-id="planning_for_deployment"><resourceid appid="planning_for_deployment" class="- topic/resourceid " oxy-source="topic"/><navtitle href="#unique_7" class="- topic/navtitle ">Planning for deployment</navtitle><?ditaot gentext?><?ditaot genshortdesc?><shortdesc class="- map/shortdesc "/></topicmeta><topicref class="- map/topicref " href="#unique_8" type="concept"><topicmeta class="- map/topicmeta " data-topic-id="open_virtual_appliance__ova__configuration_requirements"><resourceid appid="open_virtual_appliance__ova__configuration_requirements" class="- topic/resourceid " oxy-source="topic"/><navtitle href="#unique_8" class="- topic/navtitle ">Open Virtual Appliance (OVA) configuration requirements</navtitle><?ditaot gentext?><?ditaot genshortdesc?><shortdesc class="- map/shortdesc "/></topicmeta></topicref><topicref class="- map/topicref " href="#unique_9" type="concept"><topicmeta class="- map/topicmeta " data-topic-id="network_and_port_requirements"><resourceid appid="network_and_port_requirements" class="- topic/resourceid " oxy-source="topic"/><navtitle href="#unique_9" class="- topic/navtitle ">Network and port requirements</navtitle><?ditaot gentext?><?ditaot genshortdesc?><shortdesc class="- map/shortdesc "/></topicmeta><topicref class="- map/topicref " href="#unique_10" type="task"><topicmeta class="- map/topicmeta " data-topic-id="open_ports_for_desktop_client_access_to_the_data_server"><resourceid appid="open_ports_for_desktop_client_access_to_the_data_server" class="- topic/resourceid " oxy-source="topic"/><navtitle href="#unique_10" class="- topic/navtitle ">Open ports for desktop client access to the data server</navtitle><?ditaot gentext?><?ditaot genshortdesc?><shortdesc class="- map/shortdesc ">To open ports for desktop client access to the data server on OVA deployed systems, follow these steps:</shortdesc></topicmeta></topicref></topicref><topicref class="- map/topicref " href="#unique_11" type="concept"><topicmeta class="- map/topicmeta " data-topic-id="environment_sizing_guidelines"><resourceid appid="environment_sizing_guidelines" class="- topic/resourceid " oxy-source="topic"/><navtitle href="#unique_11" class="- topic/navtitle ">Environment sizing guidelines</navtitle><?ditaot gentext?><?ditaot genshortdesc?><shortdesc class="- map/shortdesc "/></topicmeta></topicref><topicref class="- map/topicref " href="#unique_12" type="concept"><topicmeta class="- map/topicmeta " data-topic-id="stack_provisioning_prerequisites"><resourceid appid="stack_provisioning_prerequisites" class="- topic/resourceid " oxy-source="topic"/><navtitle href="#unique_12" class="- topic/navtitle ">Stack-provisioning prerequisites</navtitle><?ditaot gentext?><?ditaot genshortdesc?><shortdesc class="- map/shortdesc "/></topicmeta></topicref><topicref class="- map/topicref " href="#unique_13" type="concept"><topicmeta class="- map/topicmeta " data-topic-id="license_usage_metrics"><resourceid appid="license_usage_metrics" class="- topic/resourceid " oxy-source="topic"/><navtitle href="#unique_13" class="- topic/navtitle ">License usage metrics</navtitle><?ditaot gentext?><?ditaot genshortdesc?><shortdesc class="- map/shortdesc "/></topicmeta></topicref><topicref class="- map/topicref " href="#unique_14" type="concept"><topicmeta class="- map/topicmeta " data-topic-id="security"><resourceid appid="security" class="- topic/resourceid " oxy-source="topic"/><navtitle href="#unique_14" class="- topic/navtitle ">Security</navtitle><?ditaot gentext?><?ditaot genshortdesc?><shortdesc class="- map/shortdesc "/></topicmeta></topicref></topicref>
     <topicref xmlns:dita-ot="http://dita-ot.sourceforge.net/ns/201007/dita-ot" is-chapter="true" class="- map/topicref " href="#unique_15" type="concept"><topicmeta class="- map/topicmeta " data-topic-id="deploying_ibm_storediq"><resourceid appid="deploying_ibm_storediq" class="- topic/resourceid " oxy-source="topic"/><navtitle href="#unique_15" class="- topic/navtitle ">Deploying IBM StoredIQ</navtitle><?ditaot gentext?><?ditaot genshortdesc?><shortdesc class="- map/shortdesc ">IBM StoredIQ is a virtual appliance that you deploy and configure in a VMWare virtual host environment.</shortdesc></topicmeta><topicref class="- map/topicref " href="#unique_16" type="task"><topicmeta class="- map/topicmeta " data-topic-id="deploying_the_virtual_appliances"><resourceid appid="deploying_the_virtual_appliances" class="- topic/resourceid " oxy-source="topic"/><navtitle href="#unique_16" class="- topic/navtitle ">Deploying the virtual appliances</navtitle><?ditaot gentext?><?ditaot genshortdesc?><shortdesc class="- map/shortdesc "/></topicmeta></topicref><topicref class="- map/topicref " href="#unique_17" type="task"><topicmeta class="- map/topicmeta " data-topic-id="deploying_ibm_storediq_on_microsoft_hyper_v"><resourceid appid="deploying_ibm_storediq_on_microsoft_hyper_v" class="- topic/resourceid " oxy-source="topic"/><navtitle href="#unique_17" class="- topic/navtitle ">Deploying IBM StoredIQ on Microsoft Hyper-V</navtitle><?ditaot gentext?><?ditaot genshortdesc?><shortdesc class="- map/shortdesc ">As an alternative to installing on an ESX server, the IBM StoredIQ gateway, data server, and application         stack can be installed on Microsoft Hyper-V. This option is not supported for the Elasticsearch virtual         appliance.</shortdesc></topicmeta></topicref></topicref>
+    <topichead xmlns:dita-ot="http://dita-ot.sourceforge.net/ns/201007/dita-ot" is-chapter="true" class="+ map/topicref mapgroup-d/topichead " navtitle="Glossary"><topicmeta class="- map/topicmeta "><navtitle class="- topic/navtitle " href="#d7e197">Glossary</navtitle></topicmeta><topicref class="- map/topicref " href="#unique_18" type="glossgroup"><topicmeta class="- map/topicmeta " data-topic-id="glossary"><resourceid appid="glossary" class="- topic/resourceid " oxy-source="topic"/><navtitle href="#unique_18" class="- topic/navtitle ">Important terms</navtitle><?ditaot gentext?></topicmeta></topicref></topichead>
+    <?ditaot gentext?><?ditaot genshortdesc?><?ditaot gentext?><?ditaot genshortdesc?>
 </opentopic:map><concept xmlns:dita-ot="http://dita-ot.sourceforge.net/ns/201007/dita-ot" break-before="true" is-chapter="true" class="- topic/topic concept/concept " id="unique_1" topicrefclass="- map/topicref " nd:nd-id="About" oid="About">
     <title class="- topic/title ">About this publication</title>
     <shortdesc class="- topic/shortdesc ">IBM StoredIQ Deployment and Configuration Guide provides information about how to plan, deploy, and
@@ -21,14 +23,14 @@
     <shortdesc class="- topic/shortdesc ">The following documents are available in the IBM® StoredIQ® product library.</shortdesc>
     <conbody class="- topic/body  concept/conbody ">
         <p class="- topic/p "><ul class="- topic/ul ">
-            <li class="- topic/li ">IBM StoredIQ Overview Guide</li>
-            <li class="- topic/li ">IBM StoredIQ Deployment and Configuration Guide</li>
-            <li class="- topic/li ">IBM StoredIQ Data Server Administration Guide</li>
-            <li class="- topic/li ">IBM StoredIQ Administrator Administration Guide</li>
-            <li class="- topic/li ">IBM StoredIQ Data Workbench User Guide</li>
-            <li class="- topic/li ">IBM StoredIQ Policy Manager User Guide</li>
-            <li class="- topic/li ">IBM StoredIQ Insights User Guide</li>
-            <li class="- topic/li ">IBM StoredIQ Integration Guide</li>
+            <li class="- topic/li "><i class="+ topic/ph hi-d/i ">IBM StoredIQ Overview Guide</i></li>
+            <li class="- topic/li "><i class="+ topic/ph hi-d/i ">IBM StoredIQ Deployment and Configuration Guide</i></li>
+            <li class="- topic/li "><i class="+ topic/ph hi-d/i ">IBM StoredIQ Data Server Administration Guide</i></li>
+            <li class="- topic/li "><i class="+ topic/ph hi-d/i ">IBM StoredIQ Administrator Administration Guide</i></li>
+            <li class="- topic/li "><i class="+ topic/ph hi-d/i ">IBM StoredIQ Data Workbench User Guide</i></li>
+            <li class="- topic/li "><i class="+ topic/ph hi-d/i ">IBM StoredIQ Policy Manager User Guide</i></li>
+            <li class="- topic/li "><i class="+ topic/ph hi-d/i ">IBM StoredIQ Insights User Guide</i></li>
+            <li class="- topic/li "><i class="+ topic/ph hi-d/i ">IBM StoredIQ Integration Guide</i></li>
         </ul></p>
     </conbody>
 </concept><concept class="- topic/topic concept/concept " id="unique_3" topicrefclass="- map/topicref " nd:nd-id="Contacting" oid="Contacting">
@@ -391,12 +393,12 @@
     <conbody class="- topic/body  concept/conbody ">
         <p class="- topic/p ">When you plan a deployment of IBM StoredIQ, evaluate several infrastructure considerations.</p>
         <p class="- topic/p ">In addition to the information in this section, review the requirements detailed in the IBM Software
-            Product Compatibility Reports (SPCR) tool at: Software Product Compatibility Reports: StoredIQ 7.6</p>
+            Product Compatibility Reports (SPCR) tool at: <xref class="- topic/xref " href="#unique_1" type="concept"><?ditaot usertext?>Software Product Compatibility Reports: StoredIQ 7.6<?ditaot genshortdesc?><desc class="- topic/desc ">IBM StoredIQ Deployment and Configuration Guide provides information about how to plan, deploy, and         configure the IBM StoredIQ product.</desc></xref></p>
             <p class="- topic/p ">If you plan to use IBM StoredIQ for Legal Identification and Collection to create and manage data boxes
             and data requests that are to be fulfilled by IBM StoredIQ, also check the system requirements for
-            StoredIQ for Legal at: Software Product Compatibility Reports: StoredIQ for Legal 2.0.3</p>
+            StoredIQ for Legal at: <xref class="- topic/xref " href="#unique_1" type="concept"><?ditaot usertext?>Software Product Compatibility Reports: StoredIQ for Legal 2.0.3<?ditaot genshortdesc?><desc class="- topic/desc ">IBM StoredIQ Deployment and Configuration Guide provides information about how to plan, deploy, and         configure the IBM StoredIQ product.</desc></xref></p>
         <p class="- topic/p "><b class="+ topic/ph hi-d/b ">Generate customized reports with the SPCR tool</b></p>
-        <p class="- topic/p ">Go to the page at Software Product Compatibility Reports to create a high-level report for supported
+        <p class="- topic/p ">Go to the page at <xref class="- topic/xref " href="#unique_1" type="concept"><?ditaot usertext?>Software Product Compatibility Reports<?ditaot genshortdesc?><desc class="- topic/desc ">IBM StoredIQ Deployment and Configuration Guide provides information about how to plan, deploy, and         configure the IBM StoredIQ product.</desc></xref> to create a high-level report for supported
             operating systems, related software, hypervisors, and supported translations for any product. You can
             also create an in-depth report to get detailed system requirements, hardware requirements, and end of
             service information for each product. You can search for a product in all of the report types and reports
@@ -525,9 +527,15 @@
                                     <p class="- topic/p ">Primary disk (vmdisk1, SCSI 0:0): Default is 150 GB</p>
                                     <p class="- topic/p ">This virtual disk has an associated VMDK that contains the
                                         IBM StoredIQ operating code. Do not change its size.</p>
-                                    <ph class="- topic/ph ">If you delete the primary disk, you delete the operating system, and the IBM
+                                    <hazardstatement class="+ topic/note hazard-d/hazardstatement ">
+                <messagepanel class="+ topic/ul hazard-d/messagepanel ">
+                    <typeofhazard class="+ topic/li hazard-d/typeofhazard "> Deleting primary disc</typeofhazard>
+                    <howtoavoid class="+ topic/li hazard-d/howtoavoid ">If you delete the primary disk, you delete the operating system, and the IBM
                         StoredIQ software; the virtual machine might need to be scrapped.
-                    </ph>
+                    </howtoavoid>
+                </messagepanel>
+                <hazardsymbol class="+ topic/image hazard-d/hazardsymbol " href="file:/Users/zofiaiwanek/Desktop/Workspace/Project_2/resources/images/warning.jpg" placement="inline"/>
+            </hazardstatement>
                                 </li>
                                 <li class="- topic/li ">
                                     <p class="- topic/p ">Data disk (vmdisk2, SCSI 0:1): Default is 2 TB</p>
@@ -650,7 +658,7 @@
                         communication and allows remote administration access to the VM. In general, traffic is encrypted using
                         password authentication. To add a layer of security, you can establish key-based authentication for
                         passwordless SSH logins to any of the IBM StoredIQ nodes in your environment as described in
-                        “Configuring SSH key-based authentication” on page 45.
+                        <xref class="- topic/xref " href="#unique_1" type="concept"><?ditaot usertext?>“Configuring SSH key-based authentication”<?ditaot genshortdesc?><desc class="- topic/desc ">IBM StoredIQ Deployment and Configuration Guide provides information about how to plan, deploy, and         configure the IBM StoredIQ product.</desc></xref> on page 45.
                     </dd>
                 </dlentry>
                 <dlentry class="- topic/dlentry ">
@@ -813,7 +821,7 @@
                                         <entry align="left" class="- topic/entry " colname="col1" colsep="1" dita-ot:x="1" dita-ot:y="5" xtrc="entry:37;226:72" xtrf="file:/Users/zofiaiwanek/Desktop/Workspace/Project_2/topics/concepts/network_and_port_requirements.dita">8888</entry>
                                         <entry align="left" class="- topic/entry " colname="col2" colsep="1" dita-ot:x="2" dita-ot:y="5" xtrc="entry:38;227:72" xtrf="file:/Users/zofiaiwanek/Desktop/Workspace/Project_2/topics/concepts/network_and_port_requirements.dita">tcp</entry>
                                         <entry align="left" class="- topic/entry " colname="col3" colsep="1" dita-ot:x="3" dita-ot:y="5" xtrc="entry:39;228:72" xtrf="file:/Users/zofiaiwanek/Desktop/Workspace/Project_2/topics/concepts/network_and_port_requirements.dita">SimpleHTTPServer (used for
-                                            copying the siqelasticsearch.yml configuration file from
+                                            copying the <codeph class="+ topic/ph pr-d/codeph ">siqelasticsearch.yml</codeph> configuration file from
                                             the Elasticsearch node to the data server)</entry>
                                     </row>
                                     <row class="- topic/row " rowsep="1">
@@ -822,10 +830,10 @@
                                         <entry align="left" class="- topic/entry " colname="col3" colsep="1" dita-ot:x="3" dita-ot:y="6" xtrc="entry:42;235:72" xtrf="file:/Users/zofiaiwanek/Desktop/Workspace/Project_2/topics/concepts/network_and_port_requirements.dita">docker-proxy (listening for
                                             REST requests) You can restrict access to this port by
                                             either enabling Search Guard or by setting up a
-                                            firewall. For more information, see “Securing
+                                            firewall. For more information, see <xref class="- topic/xref " href="#unique_1" type="concept"><?ditaot usertext?>“Securing
                                             Elasticsearch cluster communication with Search Guard”
-                                            on page 51 or “Restricting access to port 9200 on
-                                            Elasticsearch nodes” on page 52.</entry>
+                                            on page 51<?ditaot genshortdesc?><desc class="- topic/desc ">IBM StoredIQ Deployment and Configuration Guide provides information about how to plan, deploy, and         configure the IBM StoredIQ product.</desc></xref> or <xref class="- topic/xref " href="#unique_1" type="concept"><?ditaot usertext?>“Restricting access to port 9200 on
+                                            Elasticsearch nodes” on page 52.<?ditaot genshortdesc?><desc class="- topic/desc ">IBM StoredIQ Deployment and Configuration Guide provides information about how to plan, deploy, and         configure the IBM StoredIQ product.</desc></xref></entry>
                                     </row>
                                     <row class="- topic/row " rowsep="1">
                                         <entry align="left" class="- topic/entry " colname="col1" colsep="1" dita-ot:x="1" dita-ot:y="7" xtrc="entry:43;244:72" xtrf="file:/Users/zofiaiwanek/Desktop/Workspace/Project_2/topics/concepts/network_and_port_requirements.dita">9300</entry>
@@ -1234,15 +1242,15 @@
                 <dd class="- topic/dd ">
                     <p class="- topic/p ">In a production environment, you should configure or install certificates on the AppStack to enable HTTPS
                         communication and to enable encryption of data in motion between the browser and the AppStack. You
-                        can to this during installation and initial configuration or at any time afterward. For details, see the
-                        instructions for configuring certificates.</p>
+                        can to this during installation and initial configuration or at any time afterward. For details, see <xref class="- topic/xref " href="#unique_1" type="concept"><?ditaot usertext?>the
+                        instructions for configuring certificates.<?ditaot genshortdesc?><desc class="- topic/desc ">IBM StoredIQ Deployment and Configuration Guide provides information about how to plan, deploy, and         configure the IBM StoredIQ product.</desc></xref></p>
                     <p class="- topic/p ">The gateway handles the communication between the data servers and the application stack. By default,
                         the communication between the gateway, any data servers, and the AppStack is in plain text and is not
                         encrypted. If your enterprise security policy mandates encryption of data in motion, enable secure
                         gateway communication. In this case, secure gateway communication must be configured on all three
                         IBM StoredIQ components. You can enable secure gateway communication during installation and initial
-                        configuration or at any time afterward. For details, see “Managing the status of secure gateway
-                        communication” on page 54.</p>
+                        configuration or at any time afterward. For details, see <xref class="- topic/xref " href="#unique_1" type="concept"><?ditaot usertext?>“Managing the status of secure gateway
+                        communication” on page 54.<?ditaot genshortdesc?><desc class="- topic/desc ">IBM StoredIQ Deployment and Configuration Guide provides information about how to plan, deploy, and         configure the IBM StoredIQ product.</desc></xref></p>
                     <p class="- topic/p ">
                         IBM StoredIQ then uses stunnel to ensure secure communication between the components. If your
                         environment includes data servers of the type DataServer - Distributed, stunnel can also be used to
@@ -1276,9 +1284,9 @@
                 <dd class="- topic/dd ">
                     <p class="- topic/p ">Starting with IBM StoredIQ version 7.6.0.15, the disk volume on which the Elasticsearch indexes are
                         stored is encrypted by default. IBM StoredIQ uses Linux Unified Key Setup (LUKS) for disk encryption. For
-                        details about key management, see “Key and certificate management” on page 41.</p>
+                        details about key management, see <xref class="- topic/xref " href="#unique_1" type="concept"><?ditaot usertext?>“Key and certificate management”<?ditaot genshortdesc?><desc class="- topic/desc ">IBM StoredIQ Deployment and Configuration Guide provides information about how to plan, deploy, and         configure the IBM StoredIQ product.</desc></xref> on page 41.</p>
                     <p class="- topic/p ">Optionally, you can encrypt the application data on the IBM StoredIQ application stack. For more
-                        information, see “Enabling encryption of IBM StoredIQ AppStack application data” on page 50.</p>
+                        information, see <xref class="- topic/xref " href="#unique_1" type="concept"><?ditaot usertext?>“Enabling encryption of IBM StoredIQ AppStack application data” on page 50<?ditaot genshortdesc?><desc class="- topic/desc ">IBM StoredIQ Deployment and Configuration Guide provides information about how to plan, deploy, and         configure the IBM StoredIQ product.</desc></xref>.</p>
                 </dd>
             </dlentry>
             
@@ -1299,7 +1307,7 @@
                 <dt class="- topic/dt ">Access control</dt>
                 <dd class="- topic/dd ">
                     <p class="- topic/p ">The following administrative accounts are required. The builder and siqadmin accounts are IBM
-                        StoredIQ-specific accounts. For more information about these accounts, see “Default user accounts” on
+                        StoredIQ-specific accounts. For more information about these accounts, see <xref class="- topic/xref " href="#unique_1" type="concept"><?ditaot usertext?>“Default user accounts” <?ditaot genshortdesc?><desc class="- topic/desc ">IBM StoredIQ Deployment and Configuration Guide provides information about how to plan, deploy, and         configure the IBM StoredIQ product.</desc></xref>on
                         page 17.</p>
                     <dl class="- topic/dl ">
                         <dlentry class="- topic/dlentry ">
@@ -1366,7 +1374,7 @@
                                 <entry align="left" class="- topic/entry " colname="col3" colsep="1" dita-ot:x="3" dita-ot:y="2" xtrc="entry:6;162:64" xtrf="file:/Users/zofiaiwanek/Desktop/Workspace/Project_2/topics/concepts/security.dita">
                                     <p class="- topic/p ">Administrative account for accessing IBM StoredIQ Data Server. Use this account for the initial setup of the data 
                                         server and to create further administrative accounts for routine administration. </p>
-                                    <p class="- topic/p "> Change the password in IBM StoredIQ Data Server under Administration Configuration &gt; Manage users.
+                                    <p class="- topic/p "> Change the password in IBM StoredIQ Data Server under <b class="+ topic/ph hi-d/b ">Administration</b> &gt; <b class="+ topic/ph hi-d/b ">Configuration</b> &gt; <b class="+ topic/ph hi-d/b ">Manage users</b>.
                                     </p>
                                 </entry>
                             </row>
@@ -1518,10 +1526,17 @@
                         <cmd class="- topic/ph task/cmd ">Within the <b class="+ topic/ph hi-d/b "> Ready to Complete</b> page, review the deployment settings. Click <b class="+ topic/ph hi-d/b ">Finish</b> to complete the
                             Deploy OVF Template.</cmd> 
                         <stepresult class="- topic/itemgroup task/stepresult ">At this point, you can select the <b class="+ topic/ph hi-d/b ">Power on</b> check box to turn on the VM after deployment is
-                            complete. <ph class="- topic/ph ">If your IBM StoredIQ environment includes an Elasticsearch cluster, do not select this
+                            complete. 
+                            <hazardstatement class="+ topic/note hazard-d/hazardstatement ">
+                <messagepanel class="+ topic/ul hazard-d/messagepanel ">
+                    <typeofhazard class="+ topic/li hazard-d/typeofhazard "> Complete setup beforefirst boot</typeofhazard>
+                    <howtoavoid class="+ topic/li hazard-d/howtoavoid ">If your IBM StoredIQ environment includes an Elasticsearch cluster, do not select this
                         option when you're deploying the data server OVA. The Elasticsearch cluster setup must be
                         complete before you run the data server first-boot process.
-                    </ph> </stepresult>
+                    </howtoavoid>               
+                </messagepanel>
+            </hazardstatement>
+                        </stepresult>
                     </substep>
                     
                 </substeps>
@@ -1638,4 +1653,74 @@
             </step>
         </steps>
     </taskbody>
-</task></concept></map>
+</task></concept><topic xmlns:ot-placeholder="http://suite-sol.com/namespaces/ot-placeholder" break-before="true" is-chapter="true" class="+ topic/topic pdf2-d/placeholder " id="d7e197" topicrefclass="+ map/topicref mapgroup-d/topichead "><title class="- topic/title ">Glossary</title><glossgroup class="- topic/topic concept/concept glossgroup/glossgroup " id="unique_18" topicrefclass="- map/topicref " nd:nd-id="glossary" oid="glossary">
+    <title class="- topic/title ">Important terms</title>
+    
+    <glossentry class="- topic/topic concept/concept glossentry/glossentry " id="unique_19" nd:nd-id="a" oid="a">
+        <glossterm class="- topic/title concept/title glossentry/glossterm ">Application stack</glossterm>
+        <glossdef class="- topic/abstract concept/abstract glossentry/glossdef ">x</glossdef>
+    </glossentry>
+    
+    <glossentry class="- topic/topic concept/concept glossentry/glossentry " id="unique_20" nd:nd-id="ac" oid="ac">
+        <glossterm class="- topic/title concept/title glossentry/glossterm ">Auto-classification</glossterm>
+        <glossdef class="- topic/abstract concept/abstract glossentry/glossdef "> x</glossdef>
+    </glossentry>
+    
+    <glossentry class="- topic/topic concept/concept glossentry/glossentry " id="unique_21" nd:nd-id="ca" oid="ca">
+        <glossterm class="- topic/title concept/title glossentry/glossterm ">Cartridges</glossterm>
+        <glossdef class="- topic/abstract concept/abstract glossentry/glossdef ">x</glossdef>
+    </glossentry>
+    
+    <glossentry class="- topic/topic concept/concept glossentry/glossentry " id="unique_22" nd:nd-id="co" oid="co">
+        <glossterm class="- topic/title concept/title glossentry/glossterm ">Connector API SDK</glossterm>
+        <glossdef class="- topic/abstract concept/abstract glossentry/glossdef ">x</glossdef>
+    </glossentry>
+    
+    <glossentry class="- topic/topic concept/concept glossentry/glossentry " id="unique_23" nd:nd-id="dsc" oid="dsc">
+        <glossterm class="- topic/title concept/title glossentry/glossterm ">DataServer - Classic</glossterm>
+        <glossdef class="- topic/abstract concept/abstract glossentry/glossdef "> x.</glossdef>
+    </glossentry>
+    
+    <glossentry class="- topic/topic concept/concept glossentry/glossentry " id="unique_24" nd:nd-id="dsd" oid="dsd">
+        <glossterm class="- topic/title concept/title glossentry/glossterm ">DataServer - distributed</glossterm>
+        <glossdef class="- topic/abstract concept/abstract glossentry/glossdef "> x</glossdef>
+    </glossentry>
+    
+    <glossentry class="- topic/topic concept/concept glossentry/glossentry " id="unique_25" nd:nd-id="dss" oid="dss">
+        <glossterm class="- topic/title concept/title glossentry/glossterm ">DataServers</glossterm>
+        <glossdef class="- topic/abstract concept/abstract glossentry/glossdef "> x.</glossdef>
+    </glossentry>
+    
+    <glossentry class="- topic/topic concept/concept glossentry/glossentry " id="unique_26" nd:nd-id="g" oid="g">
+        <glossterm class="- topic/title concept/title glossentry/glossterm ">Gateway</glossterm>
+        <glossdef class="- topic/abstract concept/abstract glossentry/glossdef "> x</glossdef>
+    </glossentry>
+    
+    <glossentry class="- topic/topic concept/concept glossentry/glossentry " id="unique_27" nd:nd-id="is" oid="is">
+        <glossterm class="- topic/title concept/title glossentry/glossterm ">IBM StoredIQ Insights</glossterm>
+        <glossdef class="- topic/abstract concept/abstract glossentry/glossdef "> x</glossdef>
+    </glossentry>
+    
+    
+    
+   
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+</glossgroup></topic></map>

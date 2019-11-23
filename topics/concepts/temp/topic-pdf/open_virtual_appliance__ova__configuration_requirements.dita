@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?><?workdir /Users/zofiaiwanek/Desktop/Workspace/Project_2/topics/concepts/temp/topic-pdf?><?workdir-uri file:/Users/zofiaiwanek/Desktop/Workspace/Project_2/topics/concepts/temp/topic-pdf/?><?path2project?><?path2project-uri ./?><?path2rootmap-uri ./?><?doctype-public -//OASIS//DTD DITA Concept//EN?><?doctype-system concept.dtd?><concept xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" xmlns:dita-ot="http://dita-ot.sourceforge.net/ns/201007/dita-ot" class="- topic/topic concept/concept " ditaarch:DITAArchVersion="1.3" domains="(topic concept) (topic abbrev-d) a(props deliveryTarget) (topic equation-d) (topic hazard-d) (topic hi-d) (topic indexing-d) (topic markup-d) (topic mathml-d) (topic pr-d) (topic relmgmt-d) (topic sw-d) (topic svg-d) (topic ui-d) (topic ut-d) (topic markup-d xml-d)" id="open_virtual_appliance__ova__configuration_requirements" xtrc="concept:1;3:71" xtrf="file:/Users/zofiaiwanek/Desktop/Workspace/Project_2/topics/concepts/open_virtual_appliance__ova__configuration_requirements.dita">
+    <title class="- topic/title " xtrc="title:1;4:12" xtrf="file:/Users/zofiaiwanek/Desktop/Workspace/Project_2/topics/concepts/open_virtual_appliance__ova__configuration_requirements.dita">Open Virtual Appliance (OVA) configuration requirements</title>
+    <shortdesc class="- topic/shortdesc " xtrc="shortdesc:1;5:16" xtrf="file:/Users/zofiaiwanek/Desktop/Workspace/Project_2/topics/concepts/open_virtual_appliance__ova__configuration_requirements.dita"/>
+    <conbody class="- topic/body  concept/conbody " xtrc="conbody:1;6:14" xtrf="file:/Users/zofiaiwanek/Desktop/Workspace/Project_2/topics/concepts/open_virtual_appliance__ova__configuration_requirements.dita">
+        <p class="- topic/p " xtrc="p:1;7:12" xtrf="file:/Users/zofiaiwanek/Desktop/Workspace/Project_2/topics/concepts/open_virtual_appliance__ova__configuration_requirements.dita">IBM StoredIQ is deployed as virtual appliances and is supported in VMware ESXi 5.0 (all fix pack levels) or
+            VMware ESXi 6.0 (all fix pack levels) environments. You must have a virtual infrastructure that meets the
+            IBM StoredIQ hardware requirements.</p>
+        
+        <dl class="- topic/dl " xtrc="dl:1;11:13" xtrf="file:/Users/zofiaiwanek/Desktop/Workspace/Project_2/topics/concepts/open_virtual_appliance__ova__configuration_requirements.dita">
+            <dlentry class="- topic/dlentry " xtrc="dlentry:1;12:22" xtrf="file:/Users/zofiaiwanek/Desktop/Workspace/Project_2/topics/concepts/open_virtual_appliance__ova__configuration_requirements.dita">
+                <dt class="- topic/dt " xtrc="dt:1;13:21" xtrf="file:/Users/zofiaiwanek/Desktop/Workspace/Project_2/topics/concepts/open_virtual_appliance__ova__configuration_requirements.dita">Application stack</dt>
+                <dd class="- topic/dd " xtrc="dd:1;14:21" xtrf="file:/Users/zofiaiwanek/Desktop/Workspace/Project_2/topics/concepts/open_virtual_appliance__ova__configuration_requirements.dita">
+                    <p class="- topic/p " xtrc="p:2;15:24" xtrf="file:/Users/zofiaiwanek/Desktop/Workspace/Project_2/topics/concepts/open_virtual_appliance__ova__configuration_requirements.dita">
+                        <ul class="- topic/ul " xtrc="ul:1;16:29" xtrf="file:/Users/zofiaiwanek/Desktop/Workspace/Project_2/topics/concepts/open_virtual_appliance__ova__configuration_requirements.dita">
+                            <li class="- topic/li " xtrc="li:1;17:33" xtrf="file:/Users/zofiaiwanek/Desktop/Workspace/Project_2/topics/concepts/open_virtual_appliance__ova__configuration_requirements.dita">
+                                vCPU: 2
+                            </li>
+                            <li class="- topic/li " xtrc="li:2;20:33" xtrf="file:/Users/zofiaiwanek/Desktop/Workspace/Project_2/topics/concepts/open_virtual_appliance__ova__configuration_requirements.dita">
+                                Memory: 4 GB
+                            </li>
+                            <li class="- topic/li " xtrc="li:3;23:33" xtrf="file:/Users/zofiaiwanek/Desktop/Workspace/Project_2/topics/concepts/open_virtual_appliance__ova__configuration_requirements.dita">
+                                Storage:
+                                <ul class="- topic/ul " xtrc="ul:2;25:37" xtrf="file:/Users/zofiaiwanek/Desktop/Workspace/Project_2/topics/concepts/open_virtual_appliance__ova__configuration_requirements.dita">
+                                    <li class="- topic/li " xtrc="li:4;26:41" xtrf="file:/Users/zofiaiwanek/Desktop/Workspace/Project_2/topics/concepts/open_virtual_appliance__ova__configuration_requirements.dita">Primary disk (vmdisk1): 21 GB</li>
+                                    <li class="- topic/li " xtrc="li:5;27:41" xtrf="file:/Users/zofiaiwanek/Desktop/Workspace/Project_2/topics/concepts/open_virtual_appliance__ova__configuration_requirements.dita">Data disk (vmdisk2): 10 GB</li>
+                                </ul>
+                            </li>
+                            
+                            
+                        </ul>
+                    </p>
+                </dd>
+            </dlentry>
+            
+            
+            <dlentry class="- topic/dlentry " xtrc="dlentry:2;38:22" xtrf="file:/Users/zofiaiwanek/Desktop/Workspace/Project_2/topics/concepts/open_virtual_appliance__ova__configuration_requirements.dita">
+                <dt class="- topic/dt " xtrc="dt:2;39:21" xtrf="file:/Users/zofiaiwanek/Desktop/Workspace/Project_2/topics/concepts/open_virtual_appliance__ova__configuration_requirements.dita">Gateway server</dt>
+                <dd class="- topic/dd " xtrc="dd:2;40:21" xtrf="file:/Users/zofiaiwanek/Desktop/Workspace/Project_2/topics/concepts/open_virtual_appliance__ova__configuration_requirements.dita">
+                    <p class="- topic/p " xtrc="p:3;41:24" xtrf="file:/Users/zofiaiwanek/Desktop/Workspace/Project_2/topics/concepts/open_virtual_appliance__ova__configuration_requirements.dita">
+                        <ul class="- topic/ul " xtrc="ul:3;42:29" xtrf="file:/Users/zofiaiwanek/Desktop/Workspace/Project_2/topics/concepts/open_virtual_appliance__ova__configuration_requirements.dita">
+                            <li class="- topic/li " xtrc="li:6;43:33" xtrf="file:/Users/zofiaiwanek/Desktop/Workspace/Project_2/topics/concepts/open_virtual_appliance__ova__configuration_requirements.dita">
+                                vCPU: 4
+                                
+                            </li>
+                            <li class="- topic/li " xtrc="li:7;47:33" xtrf="file:/Users/zofiaiwanek/Desktop/Workspace/Project_2/topics/concepts/open_virtual_appliance__ova__configuration_requirements.dita">
+                                Memory: 8 GB
+                                Storage:
+                            </li>
+                            <li class="- topic/li " xtrc="li:8;51:33" xtrf="file:/Users/zofiaiwanek/Desktop/Workspace/Project_2/topics/concepts/open_virtual_appliance__ova__configuration_requirements.dita">
+                                Storage:
+                                <ul class="- topic/ul " xtrc="ul:4;53:37" xtrf="file:/Users/zofiaiwanek/Desktop/Workspace/Project_2/topics/concepts/open_virtual_appliance__ova__configuration_requirements.dita">
+                                    <li class="- topic/li " xtrc="li:9;54:41" xtrf="file:/Users/zofiaiwanek/Desktop/Workspace/Project_2/topics/concepts/open_virtual_appliance__ova__configuration_requirements.dita">Primary disk (vmdisk1): 100 GB</li>
+                                    <li class="- topic/li " xtrc="li:10;55:41" xtrf="file:/Users/zofiaiwanek/Desktop/Workspace/Project_2/topics/concepts/open_virtual_appliance__ova__configuration_requirements.dita">Data disk (vmdisk2): 75 GB</li>
+                                    <li class="- topic/li " xtrc="li:11;56:41" xtrf="file:/Users/zofiaiwanek/Desktop/Workspace/Project_2/topics/concepts/open_virtual_appliance__ova__configuration_requirements.dita">Swap disk (vmdisk3): 40 - 100 GB</li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </p>
+                </dd>
+            </dlentry>
+            
+            <dlentry class="- topic/dlentry " xtrc="dlentry:3;64:22" xtrf="file:/Users/zofiaiwanek/Desktop/Workspace/Project_2/topics/concepts/open_virtual_appliance__ova__configuration_requirements.dita">
+                <dt class="- topic/dt " xtrc="dt:3;65:21" xtrf="file:/Users/zofiaiwanek/Desktop/Workspace/Project_2/topics/concepts/open_virtual_appliance__ova__configuration_requirements.dita">DataServer - Classic</dt>
+                <dd class="- topic/dd " xtrc="dd:3;66:21" xtrf="file:/Users/zofiaiwanek/Desktop/Workspace/Project_2/topics/concepts/open_virtual_appliance__ova__configuration_requirements.dita">
+                    <ul class="- topic/ul " xtrc="ul:5;67:25" xtrf="file:/Users/zofiaiwanek/Desktop/Workspace/Project_2/topics/concepts/open_virtual_appliance__ova__configuration_requirements.dita">
+                        <li class="- topic/li " xtrc="li:12;68:29" xtrf="file:/Users/zofiaiwanek/Desktop/Workspace/Project_2/topics/concepts/open_virtual_appliance__ova__configuration_requirements.dita">
+                            <p class="- topic/p " xtrc="p:4;69:32" xtrf="file:/Users/zofiaiwanek/Desktop/Workspace/Project_2/topics/concepts/open_virtual_appliance__ova__configuration_requirements.dita">vCPU: 4</p>
+                            <p class="- topic/p " xtrc="p:5;70:32" xtrf="file:/Users/zofiaiwanek/Desktop/Workspace/Project_2/topics/concepts/open_virtual_appliance__ova__configuration_requirements.dita">Even though increasing the number of vCPUs increases performance, the actual benefits depend on
+                            whether the specific host is oversubscribed or not.</p>
+                        </li>
+                        <li class="- topic/li " xtrc="li:13;73:29" xtrf="file:/Users/zofiaiwanek/Desktop/Workspace/Project_2/topics/concepts/open_virtual_appliance__ova__configuration_requirements.dita">
+                            <p class="- topic/p " xtrc="p:6;74:32" xtrf="file:/Users/zofiaiwanek/Desktop/Workspace/Project_2/topics/concepts/open_virtual_appliance__ova__configuration_requirements.dita">
+                                Memory: 16 GB
+                            </p>
+                            <p class="- topic/p " xtrc="p:7;77:32" xtrf="file:/Users/zofiaiwanek/Desktop/Workspace/Project_2/topics/concepts/open_virtual_appliance__ova__configuration_requirements.dita">
+                                While the minimum value works under light-load condition, as the load increases, the data server
+                                quickly starts using swap space. For high load situations, increasing RAM beyond 16 GB can benefit
+                                performance. Monitoring swap usage can provide insight.
+                            </p>
+                        </li>
+                        
+                        <li class="- topic/li " xtrc="li:14;84:29" xtrf="file:/Users/zofiaiwanek/Desktop/Workspace/Project_2/topics/concepts/open_virtual_appliance__ova__configuration_requirements.dita">
+                            <p class="- topic/p " xtrc="p:8;85:32" xtrf="file:/Users/zofiaiwanek/Desktop/Workspace/Project_2/topics/concepts/open_virtual_appliance__ova__configuration_requirements.dita">Storage:</p>
+                            <ul class="- topic/ul " xtrc="ul:6;86:33" xtrf="file:/Users/zofiaiwanek/Desktop/Workspace/Project_2/topics/concepts/open_virtual_appliance__ova__configuration_requirements.dita">
+                                <li class="- topic/li " xtrc="li:15;87:37" xtrf="file:/Users/zofiaiwanek/Desktop/Workspace/Project_2/topics/concepts/open_virtual_appliance__ova__configuration_requirements.dita">
+                                    <p class="- topic/p " xtrc="p:9;88:40" xtrf="file:/Users/zofiaiwanek/Desktop/Workspace/Project_2/topics/concepts/open_virtual_appliance__ova__configuration_requirements.dita">Primary disk (vmdisk1, SCSI 0:0): Default is 150 GB</p>
+                                    <p class="- topic/p " xtrc="p:10;89:40" xtrf="file:/Users/zofiaiwanek/Desktop/Workspace/Project_2/topics/concepts/open_virtual_appliance__ova__configuration_requirements.dita">This virtual disk has an associated VMDK that contains the
+                                        IBM StoredIQ operating code. Do not change its size.</p>
+                                    <hazardstatement class="+ topic/note hazard-d/hazardstatement " conkeyref="safety/haz1" xtrc="hazardstatement:1;91:78" xtrf="file:/Users/zofiaiwanek/Desktop/Workspace/Project_2/topics/concepts/open_virtual_appliance__ova__configuration_requirements.dita">
+                                        <messagepanel class="+ topic/ul hazard-d/messagepanel " xtrc="messagepanel:1;92:55" xtrf="file:/Users/zofiaiwanek/Desktop/Workspace/Project_2/topics/concepts/open_virtual_appliance__ova__configuration_requirements.dita">
+                                            <typeofhazard class="+ topic/li hazard-d/typeofhazard " xtrc="typeofhazard:1;93:59" xtrf="file:/Users/zofiaiwanek/Desktop/Workspace/Project_2/topics/concepts/open_virtual_appliance__ova__configuration_requirements.dita"/>
+                                            <howtoavoid class="+ topic/li hazard-d/howtoavoid " xtrc="howtoavoid:1;94:57" xtrf="file:/Users/zofiaiwanek/Desktop/Workspace/Project_2/topics/concepts/open_virtual_appliance__ova__configuration_requirements.dita"/>
+                                        </messagepanel>
+                                    </hazardstatement>
+                                </li>
+                                <li class="- topic/li " xtrc="li:16;98:37" xtrf="file:/Users/zofiaiwanek/Desktop/Workspace/Project_2/topics/concepts/open_virtual_appliance__ova__configuration_requirements.dita">
+                                    <p class="- topic/p " xtrc="p:11;99:40" xtrf="file:/Users/zofiaiwanek/Desktop/Workspace/Project_2/topics/concepts/open_virtual_appliance__ova__configuration_requirements.dita">Data disk (vmdisk2, SCSI 0:1): Default is 2 TB</p>
+                                    <p class="- topic/p " xtrc="p:12;100:40" xtrf="file:/Users/zofiaiwanek/Desktop/Workspace/Project_2/topics/concepts/open_virtual_appliance__ova__configuration_requirements.dita">This virtual disk can be resized according to expectations on the amount of harvest data to be
+                                        stored. For purposes of estimation, the index storage requirement for metadata is about 30 GB
+                                        per TB of managed source data. Full-text indexing requires an extra 170 GB per TB. Therefore,
+                                        the default data disk size is targeted for managing 10 TB of source information.</p>
+                                </li>
+                                <li class="- topic/li " xtrc="li:17;105:37" xtrf="file:/Users/zofiaiwanek/Desktop/Workspace/Project_2/topics/concepts/open_virtual_appliance__ova__configuration_requirements.dita">
+                                    <p class="- topic/p " xtrc="p:13;106:40" xtrf="file:/Users/zofiaiwanek/Desktop/Workspace/Project_2/topics/concepts/open_virtual_appliance__ova__configuration_requirements.dita">Swap disk (vmdisk3, SCSI 0:2): Default is 40 GB</p>
+                                    <p class="- topic/p " xtrc="p:14;107:40" xtrf="file:/Users/zofiaiwanek/Desktop/Workspace/Project_2/topics/concepts/open_virtual_appliance__ova__configuration_requirements.dita">When under load, the data server can use much RAM; therefore, having ample swap space is
+                                        prudent. The minimum swap size is equal to the amount of RAM configured for the virtual
+                                        machine. For best performance under load, place this disk on the highest speed data store
+                                        available to the host.</p>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <p class="- topic/p " xtrc="p:15;115:24" xtrf="file:/Users/zofiaiwanek/Desktop/Workspace/Project_2/topics/concepts/open_virtual_appliance__ova__configuration_requirements.dita">
+                        The general size limits for a data server are 150 million objects or 500 defined volumes, whichever
+                        limit is reached first. Assuming an average object size of 200 KB equals about 30 TB of managed
+                        storage across 30 volumes of 5 million objects each, the index storage requirement for metadata on
+                        ~30 TB of storage that contains uncompressed general office documents is ~330 GB (11 GB per TB).
+                        Add 100 GB per TB of managed storage for full-text or snippet index. For example, to support 30 TB
+                        of storage that is indexed for metadata, you need 8 TB indexed for full-text search and extracted text
+                        (snippet cache) of 8 TB for auto-classification. A total of 1.9 TB of storage is required (metadata: 330
+                        GB, full-text: 800 GB, snippet cache: 800 GB).
+                    </p>
+                    <p class="- topic/p " xtrc="p:16;125:24" xtrf="file:/Users/zofiaiwanek/Desktop/Workspace/Project_2/topics/concepts/open_virtual_appliance__ova__configuration_requirements.dita">
+                        Data-server performance is impacted by the IOPS available from the storage subsystem. For each
+                        data server under maximum workload, at least 650 IOPS generally delivers acceptable performance.
+                        In the situations where there is a high load on the system, the IOPS that is used can reach up to 7000
+                        with main write operations.
+                    </p>
+                        
+                </dd>
+            </dlentry>
+            
+            <dlentry class="- topic/dlentry " xtrc="dlentry:4;135:22" xtrf="file:/Users/zofiaiwanek/Desktop/Workspace/Project_2/topics/concepts/open_virtual_appliance__ova__configuration_requirements.dita">
+                <dt class="- topic/dt " xtrc="dt:4;136:21" xtrf="file:/Users/zofiaiwanek/Desktop/Workspace/Project_2/topics/concepts/open_virtual_appliance__ova__configuration_requirements.dita">DataServer - Distributed</dt>
+                <dd class="- topic/dd " xtrc="dd:4;137:21" xtrf="file:/Users/zofiaiwanek/Desktop/Workspace/Project_2/topics/concepts/open_virtual_appliance__ova__configuration_requirements.dita">
+                    <ul class="- topic/ul " xtrc="ul:7;138:25" xtrf="file:/Users/zofiaiwanek/Desktop/Workspace/Project_2/topics/concepts/open_virtual_appliance__ova__configuration_requirements.dita">
+                        <li class="- topic/li " xtrc="li:18;139:29" xtrf="file:/Users/zofiaiwanek/Desktop/Workspace/Project_2/topics/concepts/open_virtual_appliance__ova__configuration_requirements.dita">vCPU: 4</li>  
+                        <li class="- topic/li " xtrc="li:19;140:29" xtrf="file:/Users/zofiaiwanek/Desktop/Workspace/Project_2/topics/concepts/open_virtual_appliance__ova__configuration_requirements.dita">Memory: 16 GB</li>  
+                        <li class="- topic/li " xtrc="li:20;141:29" xtrf="file:/Users/zofiaiwanek/Desktop/Workspace/Project_2/topics/concepts/open_virtual_appliance__ova__configuration_requirements.dita">Storage:
+                        <ul class="- topic/ul " xtrc="ul:8;142:29" xtrf="file:/Users/zofiaiwanek/Desktop/Workspace/Project_2/topics/concepts/open_virtual_appliance__ova__configuration_requirements.dita">
+                            <li class="- topic/li " xtrc="li:21;143:33" xtrf="file:/Users/zofiaiwanek/Desktop/Workspace/Project_2/topics/concepts/open_virtual_appliance__ova__configuration_requirements.dita">Primary disk (vmdisk1): 100 GB</li>
+                            <li class="- topic/li " xtrc="li:22;144:33" xtrf="file:/Users/zofiaiwanek/Desktop/Workspace/Project_2/topics/concepts/open_virtual_appliance__ova__configuration_requirements.dita">Data disk (vmdisk2): 1 TB</li>
+                        </ul>
+                        </li>    
+                    </ul>
+                    <p class="- topic/p " xtrc="p:17;148:24" xtrf="file:/Users/zofiaiwanek/Desktop/Workspace/Project_2/topics/concepts/open_virtual_appliance__ova__configuration_requirements.dita">The required memory depends on the index size that is handled by the data node. For a better
+                        performance, consider increasing the memory. The total memory available to the node must be
+                        distributed between the host operating system, the Elasticsearch java heap space, and the kernel file
+                        system caches. For example, if the system has 32 GB memory, 2 GB must be allocated for the host
+                        operating system, 15 GB for the java heap space, and the remaining 15 GB for the file system caches.</p>
+                    <p class="- topic/p " xtrc="p:18;153:24" xtrf="file:/Users/zofiaiwanek/Desktop/Workspace/Project_2/topics/concepts/open_virtual_appliance__ova__configuration_requirements.dita">The data disk (vmdisk2) can be resized according to expectations on the amount of harvest data to be
+                        stored.</p>
+                </dd>
+            </dlentry>
+            
+            
+            
+            
+        </dl>
+        
+    </conbody>
+</concept>

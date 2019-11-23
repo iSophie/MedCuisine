@@ -19,4 +19,18 @@
                path="topics/concepts/network_and_port_requirements.html"/>
    <appContext helpID="open_ports_for_desktop_client_access_to_the_data_server"
                path="topics/tasks/open_ports_for_desktop_client_access_to_the_data_server.html"/>
+   <appContext helpID="environment_sizing_guidelines"
+               path="topics/concepts/environment_sizing_guidelines.html"/>
+   <appContext helpID="stack_provisioning_prerequisites"
+               path="topics/concepts/stack_provisioning_prerequisites.html"/>
+   <appContext helpID="license_usage_metrics"
+               path="topics/concepts/license_usage_metrics.html"/>
+   <appContext helpID="security" path="topics/concepts/security.html"/>
+   <appContext helpID="deploying_ibm_storediq"
+               path="topics/concepts/deploying_ibm_storediq.html"/>
+   <appContext helpID="deploying_the_virtual_appliances"
+               path="topics/tasks/deploying_the_virtual_appliances.html"/>
+   <appContext helpID="deploying_ibm_storediq_on_microsoft_hyper_v"
+               path="topics/tasks/deploying_ibm_storediq_on_microsoft_hyper_v.html"/>
+   <appContext helpID="glossary" path="topics/glossary/Glossary.html"/>
 </map>

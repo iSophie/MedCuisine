@@ -1,0 +1,1 @@
+define({"topics" : [{"title":"glossary","href":"topics\/glossary\/Glossary.html","attributes": {"data-id":"glossary",},"menu": {"hasChildren":false,},"tocID":"glossary-d62e217","topics":[]}]});
